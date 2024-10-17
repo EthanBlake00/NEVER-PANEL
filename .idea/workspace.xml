@@ -4,37 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Variant can be updated">
-      <change afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/CustomerView.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/Hero.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/HeroCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/ItemsView.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderStatusView.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/Orders.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/TrackingForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/orders/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/orderSlice/orderSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/components/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/components/Profile.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/components/ItemCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/components/ItemCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/components/VariantCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/components/VariantCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/components/VariantForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/components/VariantForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/unauthorized/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/unauthorized/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/AlgoliaSearch.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/AuthProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/AuthProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constant/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constant/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/serviceAPI.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseClient.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/genarateIds.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/genarateIds.ts" afterDir="false" />
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="create order view">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/Hero.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,31 +192,7 @@
       <workItem from="1729006714083" duration="292000" />
       <workItem from="1729007012947" duration="748000" />
       <workItem from="1729155257638" duration="5642000" />
-      <workItem from="1729176719584" duration="3649000" />
-    </task>
-    <task id="LOCAL-00003" summary="Login complete">
-      <option name="closed" value="true" />
-      <created>1726076246603</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1726076246603</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Login(Optimized) and Logout complete">
-      <option name="closed" value="true" />
-      <created>1726082693595</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1726082693595</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Login Bugs fix">
-      <option name="closed" value="true" />
-      <created>1726087529168</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1726087529168</updated>
+      <workItem from="1729176719584" duration="5943000" />
     </task>
     <task id="LOCAL-00006" summary="buttonLoading.json animation added">
       <option name="closed" value="true" />
@@ -614,7 +562,31 @@
       <option name="project" value="LOCAL" />
       <updated>1727802537887</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Remove shadow">
+      <option name="closed" value="true" />
+      <created>1729180386262</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1729180386262</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Add Cloud functions">
+      <option name="closed" value="true" />
+      <created>1729180427380</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1729180427380</updated>
+    </task>
+    <task id="LOCAL-00054" summary="create order view">
+      <option name="closed" value="true" />
+      <created>1729180484271</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1729180484272</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -635,9 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Bug - An invalid form control with name='' is not focusable fixed" />
-    <MESSAGE value="Fix memory leak" />
-    <MESSAGE value="variant can  be added to inventory" />
     <MESSAGE value="variant can be deleted" />
     <MESSAGE value="CRUD can be performed on variants(limitations- cant modify uploaded images. workaround-delete and add again)" />
     <MESSAGE value="Bug fix and improvement" />
@@ -660,6 +629,9 @@
     <MESSAGE value="Optimized responsive in inventory details page" />
     <MESSAGE value="Variant Can be updated" />
     <MESSAGE value="Variant can be updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Variant can be updated" />
+    <MESSAGE value="Remove shadow" />
+    <MESSAGE value="Add Cloud functions" />
+    <MESSAGE value="create order view" />
+    <option name="LAST_COMMIT_MESSAGE" value="create order view" />
   </component>
 </project>

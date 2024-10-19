@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="create order view">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="OrderView UI complete without cards">
+      <change afterPath="$PROJECT_DIR$/app/not-found.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/Hero.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/components/ItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/components/ItemForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/components/VariantForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/components/VariantForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/unauthorized/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constant/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebaseClient.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseClient.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +101,7 @@
       <recent name="D:\Projects\Never-Panel\app\adminPanel\dashboard" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -125,9 +134,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.dev" />
       </list>
@@ -192,15 +201,9 @@
       <workItem from="1729006714083" duration="292000" />
       <workItem from="1729007012947" duration="748000" />
       <workItem from="1729155257638" duration="5642000" />
-      <workItem from="1729176719584" duration="5943000" />
-    </task>
-    <task id="LOCAL-00006" summary="buttonLoading.json animation added">
-      <option name="closed" value="true" />
-      <created>1726118522426</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1726118522426</updated>
+      <workItem from="1729176719584" duration="6778000" />
+      <workItem from="1729225468454" duration="12329000" />
+      <workItem from="1729362121547" duration="1425000" />
     </task>
     <task id="LOCAL-00007" summary="adminPanel structure complete">
       <option name="closed" value="true" />
@@ -586,7 +589,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729180484272</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="OrderView UI complete without cards">
+      <option name="closed" value="true" />
+      <created>1729186047007</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1729186047009</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -607,7 +618,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="variant can be deleted" />
     <MESSAGE value="CRUD can be performed on variants(limitations- cant modify uploaded images. workaround-delete and add again)" />
     <MESSAGE value="Bug fix and improvement" />
     <MESSAGE value="Add thumbnail to direct item" />
@@ -632,6 +642,7 @@
     <MESSAGE value="Remove shadow" />
     <MESSAGE value="Add Cloud functions" />
     <MESSAGE value="create order view" />
-    <option name="LAST_COMMIT_MESSAGE" value="create order view" />
+    <MESSAGE value="OrderView UI complete without cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="OrderView UI complete without cards" />
   </component>
 </project>

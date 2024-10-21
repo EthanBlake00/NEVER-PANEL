@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="change admin email, add new payments to cloud function">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Update cloud functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderStatus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderStatus.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderStatusView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderStatusView.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/adminPanel/components/NavMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/components/NavMenu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/Orders.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/Orders.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/constant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/constant.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/notifications.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/notifications.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constant/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,29 +60,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "dev",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/kawishika/Documents/Projects/Never-Panel/app",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.build.executor": "Run",
-    "npm.dev.executor": "Run",
-    "npm.start.executor": "Run",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/home/kawishika/Documents/Projects/Never-Panel/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kawishika/Documents/Projects/Never-Panel/app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/kawishika/Documents/Projects/Never-Panel/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app" />
@@ -207,15 +202,8 @@
       <workItem from="1729225468454" duration="12329000" />
       <workItem from="1729362121547" duration="3148000" />
       <workItem from="1729401195963" duration="18780000" />
-      <workItem from="1729482252839" duration="21765000" />
-    </task>
-    <task id="LOCAL-00012" summary="add date and time to dashboard">
-      <option name="closed" value="true" />
-      <created>1726169951026</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1726169951026</updated>
+      <workItem from="1729482252839" duration="23082000" />
+      <workItem from="1729538322353" duration="830000" />
     </task>
     <task id="LOCAL-00013" summary="create toast provider">
       <option name="closed" value="true" />
@@ -601,7 +589,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729518377195</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Update cloud functions">
+      <option name="closed" value="true" />
+      <created>1729536788501</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1729536788501</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,7 +618,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Optimized responsive remove image preview" />
     <MESSAGE value="Now, deleting items and variants will also delete attached images and files" />
     <MESSAGE value="Image bug fix, loading screen added" />
     <MESSAGE value="Remove table and change to card style inventory" />
@@ -647,6 +642,7 @@
     <MESSAGE value="Orders can be sorted" />
     <MESSAGE value="Tracking Notification Optimized and added, Improve sorting, restrict tracking selection" />
     <MESSAGE value="change admin email, add new payments to cloud function" />
-    <option name="LAST_COMMIT_MESSAGE" value="change admin email, add new payments to cloud function" />
+    <MESSAGE value="Update cloud functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update cloud functions" />
   </component>
 </project>

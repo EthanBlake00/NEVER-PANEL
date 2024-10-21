@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Tracking Notification Optimized and added, Improve sorting, restrict tracking selection">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="change admin email, add new payments to cloud function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderStatus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderStatus.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderStatusView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderStatusView.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/Orders.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/Orders.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/src/constant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/constant.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/templates.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/templates.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/notifications.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/notifications.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,15 +207,7 @@
       <workItem from="1729225468454" duration="12329000" />
       <workItem from="1729362121547" duration="3148000" />
       <workItem from="1729401195963" duration="18780000" />
-      <workItem from="1729482252839" duration="13183000" />
-    </task>
-    <task id="LOCAL-00011" summary="remove unnecessary firebase configs">
-      <option name="closed" value="true" />
-      <created>1726166095621</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1726166095621</updated>
+      <workItem from="1729482252839" duration="21765000" />
     </task>
     <task id="LOCAL-00012" summary="add date and time to dashboard">
       <option name="closed" value="true" />
@@ -595,7 +593,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729513531974</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="change admin email, add new payments to cloud function">
+      <option name="closed" value="true" />
+      <created>1729518377195</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1729518377195</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -616,7 +622,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove all limitation of items search and improve the search overall" />
     <MESSAGE value="Optimized responsive remove image preview" />
     <MESSAGE value="Now, deleting items and variants will also delete attached images and files" />
     <MESSAGE value="Image bug fix, loading screen added" />
@@ -641,6 +646,7 @@
     <MESSAGE value="Order status can be updated and view(No emails trigger to implemented)" />
     <MESSAGE value="Orders can be sorted" />
     <MESSAGE value="Tracking Notification Optimized and added, Improve sorting, restrict tracking selection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tracking Notification Optimized and added, Improve sorting, restrict tracking selection" />
+    <MESSAGE value="change admin email, add new payments to cloud function" />
+    <option name="LAST_COMMIT_MESSAGE" value="change admin email, add new payments to cloud function" />
   </component>
 </project>

@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Orders can be sorted">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Tracking Notification Optimized and added, Improve sorting, restrict tracking selection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/Hero.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderStatus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderStatus.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderStatusView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderStatusView.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/Orders.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/Orders.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/src/constant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/constant.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/src/templates.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/templates.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/orderSlice/orderSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/orderSlice/orderSlice.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,15 +201,7 @@
       <workItem from="1729225468454" duration="12329000" />
       <workItem from="1729362121547" duration="3148000" />
       <workItem from="1729401195963" duration="18780000" />
-      <workItem from="1729482252839" duration="9848000" />
-    </task>
-    <task id="LOCAL-00010" summary="Fix build fail error due to custom shadow semicolon">
-      <option name="closed" value="true" />
-      <created>1726165685020</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1726165685020</updated>
+      <workItem from="1729482252839" duration="13183000" />
     </task>
     <task id="LOCAL-00011" summary="remove unnecessary firebase configs">
       <option name="closed" value="true" />
@@ -600,7 +587,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729450137692</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Tracking Notification Optimized and added, Improve sorting, restrict tracking selection">
+      <option name="closed" value="true" />
+      <created>1729513531973</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1729513531974</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -621,7 +616,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add items count" />
     <MESSAGE value="Remove all limitation of items search and improve the search overall" />
     <MESSAGE value="Optimized responsive remove image preview" />
     <MESSAGE value="Now, deleting items and variants will also delete attached images and files" />
@@ -646,6 +640,7 @@
     <MESSAGE value="Configure for first deployment" />
     <MESSAGE value="Order status can be updated and view(No emails trigger to implemented)" />
     <MESSAGE value="Orders can be sorted" />
-    <option name="LAST_COMMIT_MESSAGE" value="Orders can be sorted" />
+    <MESSAGE value="Tracking Notification Optimized and added, Improve sorting, restrict tracking selection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tracking Notification Optimized and added, Improve sorting, restrict tracking selection" />
   </component>
 </project>

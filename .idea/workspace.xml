@@ -4,27 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Redesign Login page improve menu design and more bug fix">
-      <change afterPath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/components/VariantManage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/adminPanel/inventory/components/InventoryManage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/LoginForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/EmptyState.tsx" afterDir="false" />
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Bugs fixes, design improvements and more">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/components/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/components/Profile.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/components/ItemCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/components/ItemCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/components/VariantCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/components/VariantCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/components/VariantForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/components/VariantForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/orders/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/orders/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ImagesSlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ImagesSlider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/userSlice/userSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/userSlice/userSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/Hero.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/Orders.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/Orders.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/notifications.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/notifications.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/templates.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/templates.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,15 +205,7 @@
       <workItem from="1729401195963" duration="18780000" />
       <workItem from="1729482252839" duration="23082000" />
       <workItem from="1729538322353" duration="905000" />
-      <workItem from="1729575850431" duration="7277000" />
-    </task>
-    <task id="LOCAL-00014" summary="Login toast message optimized">
-      <option name="closed" value="true" />
-      <created>1726172287380</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1726172287380</updated>
+      <workItem from="1729575850431" duration="15229000" />
     </task>
     <task id="LOCAL-00015" summary="add Variant Form complete">
       <option name="closed" value="true" />
@@ -613,7 +591,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729539221103</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Bugs fixes, design improvements and more">
+      <option name="closed" value="true" />
+      <created>1729584093851</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1729584093852</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,7 +620,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Image bug fix, loading screen added" />
     <MESSAGE value="Remove table and change to card style inventory" />
     <MESSAGE value="Create Item and Variant Card UI" />
     <MESSAGE value="Optimized date and VariantCard.tsx" />
@@ -659,6 +644,7 @@
     <MESSAGE value="change admin email, add new payments to cloud function" />
     <MESSAGE value="Update cloud functions" />
     <MESSAGE value="Redesign Login page improve menu design and more bug fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redesign Login page improve menu design and more bug fix" />
+    <MESSAGE value="Bugs fixes, design improvements and more" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bugs fixes, design improvements and more" />
   </component>
 </project>

@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Bugs fixes, design improvements and more">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Restructure Email, Fix sum bugs in Order hero">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/Hero.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/Orders.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/Orders.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderStatus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderStatus.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/notifications.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/notifications.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/src/templates.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/templates.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -205,15 +203,7 @@
       <workItem from="1729401195963" duration="18780000" />
       <workItem from="1729482252839" duration="23082000" />
       <workItem from="1729538322353" duration="905000" />
-      <workItem from="1729575850431" duration="15229000" />
-    </task>
-    <task id="LOCAL-00015" summary="add Variant Form complete">
-      <option name="closed" value="true" />
-      <created>1726251925806</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1726251925806</updated>
+      <workItem from="1729575850431" duration="17671000" />
     </task>
     <task id="LOCAL-00016" summary="Image Preview Optimized in addFormVariant">
       <option name="closed" value="true" />
@@ -599,7 +589,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729584093852</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Restructure Email, Fix sum bugs in Order hero">
+      <option name="closed" value="true" />
+      <created>1729602506269</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1729602506269</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,7 +618,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove table and change to card style inventory" />
     <MESSAGE value="Create Item and Variant Card UI" />
     <MESSAGE value="Optimized date and VariantCard.tsx" />
     <MESSAGE value="Reduce Login Eye icon bug" />
@@ -645,6 +642,7 @@
     <MESSAGE value="Update cloud functions" />
     <MESSAGE value="Redesign Login page improve menu design and more bug fix" />
     <MESSAGE value="Bugs fixes, design improvements and more" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bugs fixes, design improvements and more" />
+    <MESSAGE value="Restructure Email, Fix sum bugs in Order hero" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restructure Email, Fix sum bugs in Order hero" />
   </component>
 </project>

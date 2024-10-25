@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add Records size selection and remove redundant useEffects">
-      <change afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderSearch.tsx" afterDir="false" />
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Add Search to Orders.tsx">
+      <change afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/PaymentStatusView.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/Hero.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/Orders.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/Orders.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/orders/[orderId]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/orders/[orderId]/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/EmptyState.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/EmptyState.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/orderSlice/orderSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/orderSlice/orderSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constant/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -214,15 +207,7 @@
       <workItem from="1729653239163" duration="8000" />
       <workItem from="1729753752227" duration="3304000" />
       <workItem from="1729765640967" duration="623000" />
-      <workItem from="1729830099517" duration="13035000" />
-    </task>
-    <task id="LOCAL-00019" summary="Items can be created, edit, and updated">
-      <option name="closed" value="true" />
-      <created>1726403865351</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1726403865351</updated>
+      <workItem from="1729830099517" duration="14722000" />
     </task>
     <task id="LOCAL-00020" summary="add update separation for manufacture name when saving and updating">
       <option name="closed" value="true" />
@@ -608,7 +593,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729833201119</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Add Search to Orders.tsx">
+      <option name="closed" value="true" />
+      <created>1729843313016</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1729843313016</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,7 +622,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add track back path to item page" />
     <MESSAGE value="Fix ItemForm.tsx mobile responsive bug" />
     <MESSAGE value="add, add variant form Dialog" />
     <MESSAGE value="Inventory is fully working now" />
@@ -654,6 +646,7 @@
     <MESSAGE value="Optimized" />
     <MESSAGE value="add Records size selection and remove redundant useEffects" />
     <MESSAGE value="add Records size selection and remove redundant useEffects" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Records size selection and remove redundant useEffects" />
+    <MESSAGE value="Add Search to Orders.tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Search to Orders.tsx" />
   </component>
 </project>

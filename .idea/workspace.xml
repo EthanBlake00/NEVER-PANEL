@@ -4,52 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Optimized">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Never-Panel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Never-Panel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add Records size selection and remove redundant useEffects">
+      <change afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderSearch.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/components/Loading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/components/Loading.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/components/NavMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/components/NavMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/components/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/components/Profile.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/components/VariantForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/components/VariantForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/components/ItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/components/ItemForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/Hero.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderStatus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderStatus.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/Orders.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/Orders.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/promotions/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/promotions/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/users/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/users/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/animations/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/animations/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/AuthProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/AuthProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DropShadow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/DropShadow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/LoadingView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/LoadingView.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/StoreProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/StoreProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Toast.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Toast.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ToastProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ToastProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constant/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constant/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebaseClient.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseClient.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/hooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/hooks.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/orders/[orderId]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/orders/[orderId]/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/EmptyState.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/EmptyState.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/orderSlice/orderSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/orderSlice/orderSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/toastSlice/toastSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/toastSlice/toastSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/userSlice/userSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/userSlice/userSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/genarateIds.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/genarateIds.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -248,15 +214,7 @@
       <workItem from="1729653239163" duration="8000" />
       <workItem from="1729753752227" duration="3304000" />
       <workItem from="1729765640967" duration="623000" />
-      <workItem from="1729830099517" duration="3022000" />
-    </task>
-    <task id="LOCAL-00018" summary="add section to add sizes to variants">
-      <option name="closed" value="true" />
-      <created>1726394880683</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1726394880683</updated>
+      <workItem from="1729830099517" duration="13035000" />
     </task>
     <task id="LOCAL-00019" summary="Items can be created, edit, and updated">
       <option name="closed" value="true" />
@@ -642,7 +600,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729612693392</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="add Records size selection">
+      <option name="closed" value="true" />
+      <created>1729833201119</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1729833201119</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -663,8 +629,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Optimized date and VariantCard.tsx" />
-    <MESSAGE value="Reduce Login Eye icon bug" />
     <MESSAGE value="add track back path to item page" />
     <MESSAGE value="Fix ItemForm.tsx mobile responsive bug" />
     <MESSAGE value="add, add variant form Dialog" />
@@ -688,6 +652,8 @@
     <MESSAGE value="Restructure Email, Fix sum bugs in Order hero" />
     <MESSAGE value="Barred changing status of cancelled orders" />
     <MESSAGE value="Optimized" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimized" />
+    <MESSAGE value="add Records size selection and remove redundant useEffects" />
+    <MESSAGE value="add Records size selection and remove redundant useEffects" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Records size selection and remove redundant useEffects" />
   </component>
 </project>

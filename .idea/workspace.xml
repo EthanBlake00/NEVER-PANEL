@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Add Search to Orders.tsx">
-      <change afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/PaymentStatusView.tsx" afterDir="false" />
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Add PaymentStatusView.tsx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/Orders.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/Orders.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constant/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constant/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/PaymentStatusView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/PaymentStatusView.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/templates.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/templates.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,15 +208,7 @@
       <workItem from="1729653239163" duration="8000" />
       <workItem from="1729753752227" duration="3304000" />
       <workItem from="1729765640967" duration="623000" />
-      <workItem from="1729830099517" duration="14722000" />
-    </task>
-    <task id="LOCAL-00020" summary="add update separation for manufacture name when saving and updating">
-      <option name="closed" value="true" />
-      <created>1726404954521</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1726404954521</updated>
+      <workItem from="1729830099517" duration="18714000" />
     </task>
     <task id="LOCAL-00021" summary="Inventory item can be filtered by brands and search by a phrase">
       <option name="closed" value="true" />
@@ -601,7 +594,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729843313016</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Add PaymentStatusView.tsx">
+      <option name="closed" value="true" />
+      <created>1729844935722</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1729844935723</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,7 +623,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix ItemForm.tsx mobile responsive bug" />
     <MESSAGE value="add, add variant form Dialog" />
     <MESSAGE value="Inventory is fully working now" />
     <MESSAGE value="Bug fix" />
@@ -647,6 +647,7 @@
     <MESSAGE value="add Records size selection and remove redundant useEffects" />
     <MESSAGE value="add Records size selection and remove redundant useEffects" />
     <MESSAGE value="Add Search to Orders.tsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Search to Orders.tsx" />
+    <MESSAGE value="Add PaymentStatusView.tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add PaymentStatusView.tsx" />
   </component>
 </project>

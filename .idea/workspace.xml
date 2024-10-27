@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Fix bug and add address">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Improve Error handling, Order fetching optimized and cloud function optimized">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderStatusView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderStatusView.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/PaymentStatusView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/PaymentStatusView.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/components/VariantForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/components/VariantForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/components/ItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/components/ItemForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/templates.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/templates.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,15 +210,8 @@
       <workItem from="1729753752227" duration="3304000" />
       <workItem from="1729765640967" duration="623000" />
       <workItem from="1729830099517" duration="33288000" />
-      <workItem from="1729922167611" duration="3942000" />
-    </task>
-    <task id="LOCAL-00025" summary="Add brand name and type to AddForm.tsx">
-      <option name="closed" value="true" />
-      <created>1726496283554</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1726496283555</updated>
+      <workItem from="1729922167611" duration="15436000" />
+      <workItem from="1730014562670" duration="195000" />
     </task>
     <task id="LOCAL-00026" summary="Bug fix">
       <option name="closed" value="true" />
@@ -605,7 +597,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729885570604</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Improve Error handling, Order fetching optimized and cloud function optimized">
+      <option name="closed" value="true" />
+      <created>1729926179441</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1729926179442</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -626,7 +626,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Variant Can be updated" />
     <MESSAGE value="Variant can be updated" />
     <MESSAGE value="Remove shadow" />
     <MESSAGE value="Add Cloud functions" />
@@ -651,6 +650,7 @@
     <MESSAGE value="Add Table reload button and fix sms templates align bug and PaymentStatusView.tsx complete" />
     <MESSAGE value="New Emails templates.ts" />
     <MESSAGE value="Fix bug and add address" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix bug and add address" />
+    <MESSAGE value="Improve Error handling, Order fetching optimized and cloud function optimized" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve Error handling, Order fetching optimized and cloud function optimized" />
   </component>
 </project>

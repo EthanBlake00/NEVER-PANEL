@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Improve Error handling, Order fetching optimized and cloud function optimized">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/components/VariantForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/components/VariantForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/components/ItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/components/ItemForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Fix Fetching server fetching error">
+      <change beforePath="$PROJECT_DIR$/firebase/firebaseClient.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseClient.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/genarateIds.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/genarateIds.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,15 +208,7 @@
       <workItem from="1729765640967" duration="623000" />
       <workItem from="1729830099517" duration="33288000" />
       <workItem from="1729922167611" duration="15436000" />
-      <workItem from="1730014562670" duration="195000" />
-    </task>
-    <task id="LOCAL-00026" summary="Bug fix">
-      <option name="closed" value="true" />
-      <created>1726496432392</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1726496432392</updated>
+      <workItem from="1730014562670" duration="1016000" />
     </task>
     <task id="LOCAL-00027" summary="Bug - An invalid form control with name='' is not focusable fixed">
       <option name="closed" value="true" />
@@ -605,7 +594,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729926179442</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Fix Fetching server fetching error">
+      <option name="closed" value="true" />
+      <created>1730014819005</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1730014819005</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -626,7 +623,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Variant can be updated" />
     <MESSAGE value="Remove shadow" />
     <MESSAGE value="Add Cloud functions" />
     <MESSAGE value="create order view" />
@@ -651,6 +647,7 @@
     <MESSAGE value="New Emails templates.ts" />
     <MESSAGE value="Fix bug and add address" />
     <MESSAGE value="Improve Error handling, Order fetching optimized and cloud function optimized" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improve Error handling, Order fetching optimized and cloud function optimized" />
+    <MESSAGE value="Fix Fetching server fetching error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Fetching server fetching error" />
   </component>
 </project>

@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Fix bugs and optimized">
-      <change afterPath="$PROJECT_DIR$/app/api/storage/route.ts" afterDir="false" />
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Remodel inventory page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/components/InventoryManage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/components/InventoryManage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/components/ItemCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/components/ItemCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/components/ItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/components/ItemForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/inventory/[itemId]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/inventory/[itemId]/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/inventory/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/inventory/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/orders/[orderId]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/orders/[orderId]/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/orders/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/orders/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebaseClient.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseClient.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,15 +210,7 @@
       <workItem from="1729922167611" duration="15436000" />
       <workItem from="1730014562670" duration="3230000" />
       <workItem from="1730039771992" duration="14029000" />
-      <workItem from="1730090385001" duration="21849000" />
-    </task>
-    <task id="LOCAL-00029" summary="variant can  be added to inventory">
-      <option name="closed" value="true" />
-      <created>1726549761229</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1726549761229</updated>
+      <workItem from="1730090385001" duration="22579000" />
     </task>
     <task id="LOCAL-00030" summary="variant can be deleted">
       <option name="closed" value="true" />
@@ -615,7 +596,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730045534520</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Remodel inventory page">
+      <option name="closed" value="true" />
+      <created>1730134212368</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1730134212369</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -636,7 +625,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create order view" />
     <MESSAGE value="OrderView UI complete without cards" />
     <MESSAGE value="Configure for first deployment" />
     <MESSAGE value="Order status can be updated and view(No emails trigger to implemented)" />
@@ -661,6 +649,7 @@
     <MESSAGE value="Fix Fetching server fetching error" />
     <MESSAGE value="reduce id length" />
     <MESSAGE value="Fix bugs and optimized" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix bugs and optimized" />
+    <MESSAGE value="Remodel inventory page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remodel inventory page" />
   </component>
 </project>

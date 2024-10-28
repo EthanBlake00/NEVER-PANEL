@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Remodel inventory page">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Fix Type error bug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/components/ItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/components/ItemForm.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,15 +209,7 @@
       <workItem from="1729922167611" duration="15436000" />
       <workItem from="1730014562670" duration="3230000" />
       <workItem from="1730039771992" duration="14029000" />
-      <workItem from="1730090385001" duration="22579000" />
-    </task>
-    <task id="LOCAL-00030" summary="variant can be deleted">
-      <option name="closed" value="true" />
-      <created>1726553849391</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1726553849391</updated>
+      <workItem from="1730090385001" duration="24077000" />
     </task>
     <task id="LOCAL-00031" summary="CRUD can be performed on variants(limitations- cant modify uploaded images. workaround-delete and add again)">
       <option name="closed" value="true" />
@@ -604,7 +595,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730134212369</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Fix Type error bug">
+      <option name="closed" value="true" />
+      <created>1730134911630</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1730134911630</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,7 +624,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="OrderView UI complete without cards" />
     <MESSAGE value="Configure for first deployment" />
     <MESSAGE value="Order status can be updated and view(No emails trigger to implemented)" />
     <MESSAGE value="Orders can be sorted" />
@@ -650,6 +648,7 @@
     <MESSAGE value="reduce id length" />
     <MESSAGE value="Fix bugs and optimized" />
     <MESSAGE value="Remodel inventory page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remodel inventory page" />
+    <MESSAGE value="Fix Type error bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Type error bug" />
   </component>
 </project>

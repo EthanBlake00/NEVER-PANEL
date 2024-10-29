@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="inventory remodel complete">
-      <change afterPath="$PROJECT_DIR$/app/adminPanel/inventory/components/InventorySearch.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Loading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/inventorySlice/inventorySlice.ts" afterDir="false" />
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="inventory remodel complete, enforced api security">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/components/InventoryManage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/components/InventoryManage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/components/ItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/components/ItemForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderSearch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderSearch.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderStatusView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/OrderStatusView.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/Orders.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/Orders.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/PaymentStatusView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/PaymentStatusView.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/inventory/[itemId]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/inventory/[itemId]/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/orderSlice/orderSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/orderSlice/orderSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/inventorySlice/inventorySlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/inventorySlice/inventorySlice.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,15 +215,7 @@
       <workItem from="1730137152987" duration="90000" />
       <workItem from="1730173445070" duration="367000" />
       <workItem from="1730174150393" duration="218000" />
-      <workItem from="1730185222310" duration="11809000" />
-    </task>
-    <task id="LOCAL-00032" summary="CRUD can be performed on variants(limitations- cant modify uploaded images. workaround-delete and add again)">
-      <option name="closed" value="true" />
-      <created>1726555613255</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1726555613255</updated>
+      <workItem from="1730185222310" duration="12784000" />
     </task>
     <task id="LOCAL-00033" summary="Bug fix and improvement">
       <option name="closed" value="true" />
@@ -620,7 +601,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730137236789</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="inventory remodel complete, enforced api security">
+      <option name="closed" value="true" />
+      <created>1730198103055</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1730198103057</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -641,7 +630,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Orders can be sorted" />
     <MESSAGE value="Tracking Notification Optimized and added, Improve sorting, restrict tracking selection" />
     <MESSAGE value="change admin email, add new payments to cloud function" />
     <MESSAGE value="Update cloud functions" />
@@ -666,6 +654,7 @@
     <MESSAGE value="Fix Type error bug" />
     <MESSAGE value="change constant values" />
     <MESSAGE value="inventory remodel complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="inventory remodel complete" />
+    <MESSAGE value="inventory remodel complete, enforced api security" />
+    <option name="LAST_COMMIT_MESSAGE" value="inventory remodel complete, enforced api security" />
   </component>
 </project>

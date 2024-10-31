@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="inventory remodel complete, enforced api security">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Fix bug and improved consistency">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/orders/components/Orders.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/orders/components/Orders.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/inventorySlice/inventorySlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/inventorySlice/inventorySlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/components/VariantForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/components/VariantForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/components/VariantManage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/components/VariantManage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/components/ItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/components/ItemForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/adminPanel/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ImagesSlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ImagesSlider.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,29 +61,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "dev",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/kawishika/Documents/Projects/Never-Panel/app/adminPanel/inventory/components",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.build.executor": "Run",
-    "npm.dev.executor": "Run",
-    "npm.start.executor": "Run",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/home/kawishika/Documents/Projects/Never-Panel/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kawishika/Documents/Projects/Never-Panel/app/adminPanel/inventory/components&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/kawishika/Documents/Projects/Never-Panel/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/adminPanel/inventory/components" />
@@ -215,15 +218,10 @@
       <workItem from="1730137152987" duration="90000" />
       <workItem from="1730173445070" duration="367000" />
       <workItem from="1730174150393" duration="218000" />
-      <workItem from="1730185222310" duration="12784000" />
-    </task>
-    <task id="LOCAL-00033" summary="Bug fix and improvement">
-      <option name="closed" value="true" />
-      <created>1726557983228</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1726557983228</updated>
+      <workItem from="1730185222310" duration="12962000" />
+      <workItem from="1730219483312" duration="45000" />
+      <workItem from="1730270392636" duration="46000" />
+      <workItem from="1730350813901" duration="7186000" />
     </task>
     <task id="LOCAL-00034" summary="Add thumbnail to direct item">
       <option name="closed" value="true" />
@@ -609,7 +607,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730198103057</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Fix bug and improved consistency">
+      <option name="closed" value="true" />
+      <created>1730199049759</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1730199049759</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -630,7 +636,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tracking Notification Optimized and added, Improve sorting, restrict tracking selection" />
     <MESSAGE value="change admin email, add new payments to cloud function" />
     <MESSAGE value="Update cloud functions" />
     <MESSAGE value="Redesign Login page improve menu design and more bug fix" />
@@ -655,6 +660,7 @@
     <MESSAGE value="change constant values" />
     <MESSAGE value="inventory remodel complete" />
     <MESSAGE value="inventory remodel complete, enforced api security" />
-    <option name="LAST_COMMIT_MESSAGE" value="inventory remodel complete, enforced api security" />
+    <MESSAGE value="Fix bug and improved consistency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix bug and improved consistency" />
   </component>
 </project>

@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Fix bug and improved consistency">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Fix new orders aren't arnt showup">
+      <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/components/VariantForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/components/VariantForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/components/VariantManage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/components/VariantManage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/inventory/components/ItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/inventory/components/ItemForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/adminPanel/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/adminPanel/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ImagesSlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ImagesSlider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/not-found.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/not-found.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,11 +91,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/components" />
       <recent name="$PROJECT_DIR$/app/adminPanel" />
       <recent name="$PROJECT_DIR$/components" />
       <recent name="$PROJECT_DIR$/app/adminPanel/inventory" />
-      <recent name="$PROJECT_DIR$/app/adminPanel/inventory/items/[item]" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -222,30 +220,12 @@
       <workItem from="1730219483312" duration="45000" />
       <workItem from="1730270392636" duration="46000" />
       <workItem from="1730350813901" duration="7186000" />
-    </task>
-    <task id="LOCAL-00034" summary="Add thumbnail to direct item">
-      <option name="closed" value="true" />
-      <created>1726573473133</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1726573473133</updated>
-    </task>
-    <task id="LOCAL-00035" summary="add items count">
-      <option name="closed" value="true" />
-      <created>1726591840141</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1726591840141</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Remove all limitation of items search and improve the search overall">
-      <option name="closed" value="true" />
-      <created>1726605214006</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1726605214008</updated>
+      <workItem from="1730389906258" duration="83000" />
+      <workItem from="1730394027992" duration="477000" />
+      <workItem from="1730459174094" duration="2128000" />
+      <workItem from="1730611319895" duration="977000" />
+      <workItem from="1730628156916" duration="1228000" />
+      <workItem from="1730631122782" duration="2179000" />
     </task>
     <task id="LOCAL-00037" summary="Optimized responsive remove image preview">
       <option name="closed" value="true" />
@@ -615,7 +595,31 @@
       <option name="project" value="LOCAL" />
       <updated>1730199049759</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Fix updating item details remove variants and fixed typo">
+      <option name="closed" value="true" />
+      <created>1730389974910</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1730389974910</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Optimized">
+      <option name="closed" value="true" />
+      <created>1730631507929</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1730631507929</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Fix new orders aren't arnt showup">
+      <option name="closed" value="true" />
+      <created>1730633171987</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1730633171988</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -636,13 +640,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change admin email, add new payments to cloud function" />
-    <MESSAGE value="Update cloud functions" />
     <MESSAGE value="Redesign Login page improve menu design and more bug fix" />
     <MESSAGE value="Bugs fixes, design improvements and more" />
     <MESSAGE value="Restructure Email, Fix sum bugs in Order hero" />
     <MESSAGE value="Barred changing status of cancelled orders" />
-    <MESSAGE value="Optimized" />
     <MESSAGE value="add Records size selection and remove redundant useEffects" />
     <MESSAGE value="add Records size selection and remove redundant useEffects" />
     <MESSAGE value="Add Search to Orders.tsx" />
@@ -661,6 +662,9 @@
     <MESSAGE value="inventory remodel complete" />
     <MESSAGE value="inventory remodel complete, enforced api security" />
     <MESSAGE value="Fix bug and improved consistency" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix bug and improved consistency" />
+    <MESSAGE value="Fix updating item details remove variants and fixed typo" />
+    <MESSAGE value="Optimized" />
+    <MESSAGE value="Fix new orders aren't arnt showup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix new orders aren't arnt showup" />
   </component>
 </project>

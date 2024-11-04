@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Fix build getting fails">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="redesign not-found.tsx">
       <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/icons/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/Inventory/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/sample-page/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/utilities/shadow/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/users/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/utilities/typography/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/typography/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/not-found.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/not-found.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/Inventory/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/layout/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/layout/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/layout/sidebar/MenuItems.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/layout/sidebar/MenuItems.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/layout/sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/layout/sidebar/Sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/loading.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/typography/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/users/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/users/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,15 +236,7 @@
       <workItem from="1730628156916" duration="1228000" />
       <workItem from="1730631122782" duration="15354000" />
       <workItem from="1730657804534" duration="1718000" />
-      <workItem from="1730694280551" duration="1552000" />
-    </task>
-    <task id="LOCAL-00040" summary="Remove table and change to card style inventory">
-      <option name="closed" value="true" />
-      <created>1726855558123</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1726855558123</updated>
+      <workItem from="1730694280551" duration="4312000" />
     </task>
     <task id="LOCAL-00041" summary="Create Item and Variant Card UI">
       <option name="closed" value="true" />
@@ -625,7 +622,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730658810320</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="redesign not-found.tsx">
+      <option name="closed" value="true" />
+      <created>1730695856660</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1730695856661</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -646,7 +651,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Barred changing status of cancelled orders" />
     <MESSAGE value="add Records size selection and remove redundant useEffects" />
     <MESSAGE value="add Records size selection and remove redundant useEffects" />
     <MESSAGE value="Add Search to Orders.tsx" />
@@ -671,6 +675,7 @@
     <MESSAGE value="Fix not found page layout" />
     <MESSAGE value="Redux configured, alert message configured and initial commit" />
     <MESSAGE value="Fix build getting fails" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix build getting fails" />
+    <MESSAGE value="redesign not-found.tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="redesign not-found.tsx" />
   </component>
 </project>

@@ -4,20 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="redesign not-found.tsx">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Dashboard structure basic complete">
       <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/inventoryActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ComponentsLoader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/EmptyState.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ConfirmationDialog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/authSlice/authSlice.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/Inventory/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/layout/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/layout/header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/layout/sidebar/MenuItems.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/layout/sidebar/MenuItems.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/authAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/authAction.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/layout/sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/layout/sidebar/Sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/loading.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/typography/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/users/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/users/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/animations/buttonLoading.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/animations/loading.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/GlobalProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/GlobalProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/middleware.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,11 +107,11 @@
       <recent name="$PROJECT_DIR$/functions/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/dashboard/inventory/components" />
       <recent name="$PROJECT_DIR$/app/dashboard" />
       <recent name="$PROJECT_DIR$/app/api/v1/users/[userId]" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/app/components" />
-      <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -236,15 +243,11 @@
       <workItem from="1730628156916" duration="1228000" />
       <workItem from="1730631122782" duration="15354000" />
       <workItem from="1730657804534" duration="1718000" />
-      <workItem from="1730694280551" duration="4312000" />
-    </task>
-    <task id="LOCAL-00041" summary="Create Item and Variant Card UI">
-      <option name="closed" value="true" />
-      <created>1727453955202</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1727453955203</updated>
+      <workItem from="1730694280551" duration="4853000" />
+      <workItem from="1730738132195" duration="2659000" />
+      <workItem from="1730778872277" duration="7000" />
+      <workItem from="1730795184980" duration="1321000" />
+      <workItem from="1730812463016" duration="11242000" />
     </task>
     <task id="LOCAL-00042" summary="Optimized date and VariantCard.tsx">
       <option name="closed" value="true" />
@@ -630,7 +633,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730695856661</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Dashboard structure basic complete">
+      <option name="closed" value="true" />
+      <created>1730705292462</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1730705292462</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -651,7 +662,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add Records size selection and remove redundant useEffects" />
     <MESSAGE value="add Records size selection and remove redundant useEffects" />
     <MESSAGE value="Add Search to Orders.tsx" />
     <MESSAGE value="Add PaymentStatusView.tsx" />
@@ -676,6 +686,7 @@
     <MESSAGE value="Redux configured, alert message configured and initial commit" />
     <MESSAGE value="Fix build getting fails" />
     <MESSAGE value="redesign not-found.tsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="redesign not-found.tsx" />
+    <MESSAGE value="Dashboard structure basic complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dashboard structure basic complete" />
   </component>
 </project>

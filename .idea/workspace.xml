@@ -4,27 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Dashboard structure basic complete">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Improved auth and can view inventory data">
       <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actions/inventoryActions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/ComponentsLoader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/EmptyState.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ConfirmationDialog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/authSlice/authSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/authAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/authAction.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/layout/sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/layout/sidebar/Sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/animations/buttonLoading.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/animations/loading.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/GlobalProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/GlobalProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/middleware.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/animations/index.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,8 +130,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.dev" />
@@ -247,15 +230,7 @@
       <workItem from="1730738132195" duration="2659000" />
       <workItem from="1730778872277" duration="7000" />
       <workItem from="1730795184980" duration="1321000" />
-      <workItem from="1730812463016" duration="11242000" />
-    </task>
-    <task id="LOCAL-00042" summary="Optimized date and VariantCard.tsx">
-      <option name="closed" value="true" />
-      <created>1727495969567</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1727495969567</updated>
+      <workItem from="1730812463016" duration="11547000" />
     </task>
     <task id="LOCAL-00043" summary="Reduce Login Eye icon bug">
       <option name="closed" value="true" />
@@ -641,7 +616,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730705292462</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Improved auth and can view inventory data">
+      <option name="closed" value="true" />
+      <created>1730831873771</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1730831873771</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -662,7 +645,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add Records size selection and remove redundant useEffects" />
     <MESSAGE value="Add Search to Orders.tsx" />
     <MESSAGE value="Add PaymentStatusView.tsx" />
     <MESSAGE value="PaymentStatusView.tsx update now working" />
@@ -687,6 +669,7 @@
     <MESSAGE value="Fix build getting fails" />
     <MESSAGE value="redesign not-found.tsx" />
     <MESSAGE value="Dashboard structure basic complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dashboard structure basic complete" />
+    <MESSAGE value="Improved auth and can view inventory data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved auth and can view inventory data" />
   </component>
 </project>

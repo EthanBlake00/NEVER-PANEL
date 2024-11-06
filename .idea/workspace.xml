@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Improved package.json">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="type and sort now working">
       <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/inventorySlice/inventorySlice.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ComponentsLoader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ComponentsLoader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/EmptyState.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/EmptyState.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/GlobalProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/GlobalProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constant/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constant/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/inventorySlice/inventorySlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/inventorySlice/inventorySlice.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,15 +235,7 @@
       <workItem from="1730778872277" duration="7000" />
       <workItem from="1730795184980" duration="1321000" />
       <workItem from="1730812463016" duration="12546000" />
-      <workItem from="1730862646679" duration="11545000" />
-    </task>
-    <task id="LOCAL-00044" summary="add track back path to item page">
-      <option name="closed" value="true" />
-      <created>1727502351751</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1727502351751</updated>
+      <workItem from="1730862646679" duration="16534000" />
     </task>
     <task id="LOCAL-00045" summary="Fix ItemForm.tsx mobile responsive bug">
       <option name="closed" value="true" />
@@ -634,7 +621,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730832305457</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="type and sort now working">
+      <option name="closed" value="true" />
+      <created>1730880911970</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1730880911971</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -655,7 +650,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add PaymentStatusView.tsx" />
     <MESSAGE value="PaymentStatusView.tsx update now working" />
     <MESSAGE value="Add Table reload button and fix sms templates align bug and PaymentStatusView.tsx complete" />
     <MESSAGE value="New Emails templates.ts" />
@@ -680,6 +674,7 @@
     <MESSAGE value="Dashboard structure basic complete" />
     <MESSAGE value="Improved auth and can view inventory data" />
     <MESSAGE value="Improved package.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved package.json" />
+    <MESSAGE value="type and sort now working" />
+    <option name="LAST_COMMIT_MESSAGE" value="type and sort now working" />
   </component>
 </project>

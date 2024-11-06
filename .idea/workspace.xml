@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Improved auth and can view inventory data">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Improved package.json">
       <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/animations/index.ts" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/inventorySlice/inventorySlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ComponentsLoader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ComponentsLoader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/EmptyState.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/EmptyState.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/GlobalProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/GlobalProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constant/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,8 +139,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.dev" />
@@ -230,15 +239,8 @@
       <workItem from="1730738132195" duration="2659000" />
       <workItem from="1730778872277" duration="7000" />
       <workItem from="1730795184980" duration="1321000" />
-      <workItem from="1730812463016" duration="11547000" />
-    </task>
-    <task id="LOCAL-00043" summary="Reduce Login Eye icon bug">
-      <option name="closed" value="true" />
-      <created>1727501237668</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1727501237668</updated>
+      <workItem from="1730812463016" duration="12546000" />
+      <workItem from="1730862646679" duration="11545000" />
     </task>
     <task id="LOCAL-00044" summary="add track back path to item page">
       <option name="closed" value="true" />
@@ -624,7 +626,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730831873771</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Improved package.json">
+      <option name="closed" value="true" />
+      <created>1730832305457</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1730832305457</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -645,7 +655,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Search to Orders.tsx" />
     <MESSAGE value="Add PaymentStatusView.tsx" />
     <MESSAGE value="PaymentStatusView.tsx update now working" />
     <MESSAGE value="Add Table reload button and fix sms templates align bug and PaymentStatusView.tsx complete" />
@@ -670,6 +679,7 @@
     <MESSAGE value="redesign not-found.tsx" />
     <MESSAGE value="Dashboard structure basic complete" />
     <MESSAGE value="Improved auth and can view inventory data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved auth and can view inventory data" />
+    <MESSAGE value="Improved package.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved package.json" />
   </component>
 </project>

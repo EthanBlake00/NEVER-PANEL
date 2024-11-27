@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="updating and adding items now display updated and latest values">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Item can be delete">
+      <change afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/Hero.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/ImageSlider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/Variants.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/actions/inventoryActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/inventoryActions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/api/v1/inventory/[itemId]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/inventory/[itemId]/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/genarateIds.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/genarateIds.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -238,15 +244,7 @@
       <workItem from="1730862646679" duration="22478000" />
       <workItem from="1732514248999" duration="2133000" />
       <workItem from="1732638665944" duration="9505000" />
-      <workItem from="1732684475104" duration="4298000" />
-    </task>
-    <task id="LOCAL-00048" summary="Inventory is fully working now">
-      <option name="closed" value="true" />
-      <created>1727609659333</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1727609659333</updated>
+      <workItem from="1732684475104" duration="14168000" />
     </task>
     <task id="LOCAL-00049" summary="Bug fix">
       <option name="closed" value="true" />
@@ -632,7 +630,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732648181564</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="Item can be delete">
+      <option name="closed" value="true" />
+      <created>1732714311714</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1732714311714</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,7 +659,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix bug and add address" />
     <MESSAGE value="Improve Error handling, Order fetching optimized and cloud function optimized" />
     <MESSAGE value="Fix Fetching server fetching error" />
     <MESSAGE value="reduce id length" />
@@ -678,6 +683,7 @@
     <MESSAGE value="Improved" />
     <MESSAGE value="Item add, update complete and optimized items fetching" />
     <MESSAGE value="updating and adding items now display updated and latest values" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating and adding items now display updated and latest values" />
+    <MESSAGE value="Item can be delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Item can be delete" />
   </component>
 </project>

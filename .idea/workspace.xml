@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add thumbnail preview">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Item image bug fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantFormDialog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ComponentsLoader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ComponentsLoader.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemFormDialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/inventorySlice/inventorySlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/inventorySlice/inventorySlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/middleware.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -238,15 +238,7 @@
       <workItem from="1730862646679" duration="22478000" />
       <workItem from="1732514248999" duration="2133000" />
       <workItem from="1732638665944" duration="9505000" />
-      <workItem from="1732684475104" duration="38988000" />
-    </task>
-    <task id="LOCAL-00054" summary="create order view">
-      <option name="closed" value="true" />
-      <created>1729180484271</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1729180484272</updated>
+      <workItem from="1732684475104" duration="41014000" />
     </task>
     <task id="LOCAL-00055" summary="OrderView UI complete without cards">
       <option name="closed" value="true" />
@@ -632,7 +624,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732815457297</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="Item image bug fix">
+      <option name="closed" value="true" />
+      <created>1732817342570</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1732817342572</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,7 +653,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix Type error bug" />
     <MESSAGE value="change constant values" />
     <MESSAGE value="inventory remodel complete" />
     <MESSAGE value="inventory remodel complete, enforced api security" />
@@ -678,6 +677,7 @@
     <MESSAGE value="new variant can be added" />
     <MESSAGE value="Inventory complete variant image updatability to be implemented" />
     <MESSAGE value="add thumbnail preview" />
-    <option name="LAST_COMMIT_MESSAGE" value="add thumbnail preview" />
+    <MESSAGE value="Item image bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Item image bug fix" />
   </component>
 </project>

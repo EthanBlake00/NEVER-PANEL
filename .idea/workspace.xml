@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Variant can be updated">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="new variant can be added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantFormDialog.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -234,15 +235,7 @@
       <workItem from="1730862646679" duration="22478000" />
       <workItem from="1732514248999" duration="2133000" />
       <workItem from="1732638665944" duration="9505000" />
-      <workItem from="1732684475104" duration="34632000" />
-    </task>
-    <task id="LOCAL-00051" summary="Variant can be updated">
-      <option name="closed" value="true" />
-      <created>1727802537887</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1727802537887</updated>
+      <workItem from="1732684475104" duration="36215000" />
     </task>
     <task id="LOCAL-00052" summary="Remove shadow">
       <option name="closed" value="true" />
@@ -628,7 +621,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732809769353</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="new variant can be added">
+      <option name="closed" value="true" />
+      <created>1732812981079</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1732812981079</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -649,7 +650,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="reduce id length" />
     <MESSAGE value="Fix bugs and optimized" />
     <MESSAGE value="Remodel inventory page" />
     <MESSAGE value="Fix Type error bug" />
@@ -674,6 +674,7 @@
     <MESSAGE value="Item can be delete" />
     <MESSAGE value="Can view details view of an item" />
     <MESSAGE value="Variant can be updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Variant can be updated" />
+    <MESSAGE value="new variant can be added" />
+    <option name="LAST_COMMIT_MESSAGE" value="new variant can be added" />
   </component>
 </project>

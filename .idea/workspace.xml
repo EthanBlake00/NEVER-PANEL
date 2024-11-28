@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Inventory complete variant image updatability to be implemented">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add thumbnail preview">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantFormDialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemFormDialog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/layout/header/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/layout/header/Profile.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,15 +238,7 @@
       <workItem from="1730862646679" duration="22478000" />
       <workItem from="1732514248999" duration="2133000" />
       <workItem from="1732638665944" duration="9505000" />
-      <workItem from="1732684475104" duration="37175000" />
-    </task>
-    <task id="LOCAL-00053" summary="Add Cloud functions">
-      <option name="closed" value="true" />
-      <created>1729180427380</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1729180427380</updated>
+      <workItem from="1732684475104" duration="38988000" />
     </task>
     <task id="LOCAL-00054" summary="create order view">
       <option name="closed" value="true" />
@@ -630,7 +624,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732814610843</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="add thumbnail preview">
+      <option name="closed" value="true" />
+      <created>1732815457297</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1732815457297</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -651,7 +653,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remodel inventory page" />
     <MESSAGE value="Fix Type error bug" />
     <MESSAGE value="change constant values" />
     <MESSAGE value="inventory remodel complete" />
@@ -676,6 +677,7 @@
     <MESSAGE value="Variant can be updated" />
     <MESSAGE value="new variant can be added" />
     <MESSAGE value="Inventory complete variant image updatability to be implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inventory complete variant image updatability to be implemented" />
+    <MESSAGE value="add thumbnail preview" />
+    <option name="LAST_COMMIT_MESSAGE" value="add thumbnail preview" />
   </component>
 </project>

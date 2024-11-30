@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Add orders pagination">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Add orders filtering and sorting options">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantFormDialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemFormDialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/layout/header/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/layout/header/Profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/GlobalProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/GlobalProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/StoreProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/StoreProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/authSlice/authSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/authSlice/authSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/loadSlice/loadSlice.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -242,15 +253,7 @@
       <workItem from="1732951234276" duration="185000" />
       <workItem from="1732951642225" duration="2954000" />
       <workItem from="1732982899789" duration="72000" />
-      <workItem from="1732983298898" duration="5483000" />
-    </task>
-    <task id="LOCAL-00060" summary="change admin email, add new payments to cloud function">
-      <option name="closed" value="true" />
-      <created>1729518377195</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1729518377195</updated>
+      <workItem from="1732983298898" duration="8159000" />
     </task>
     <task id="LOCAL-00061" summary="Update cloud functions">
       <option name="closed" value="true" />
@@ -636,7 +639,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732988359616</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="Add orders filtering and sorting options">
+      <option name="closed" value="true" />
+      <created>1732988817658</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1732988817658</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -657,7 +668,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Optimized" />
     <MESSAGE value="Fix new orders aren't arnt showup" />
     <MESSAGE value="Fix not found page layout" />
     <MESSAGE value="Redux configured, alert message configured and initial commit" />
@@ -682,6 +692,7 @@
     <MESSAGE value="build error updated" />
     <MESSAGE value="Add item status" />
     <MESSAGE value="Add orders pagination" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add orders pagination" />
+    <MESSAGE value="Add orders filtering and sorting options" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add orders filtering and sorting options" />
   </component>
 </project>

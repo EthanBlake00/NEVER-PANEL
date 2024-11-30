@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Add item status">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Add orders pagination">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/orders/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/orders/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/Orders.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/OrdersTable.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/orderSlice/orderSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ordersSlice/ordersSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -245,15 +242,7 @@
       <workItem from="1732951234276" duration="185000" />
       <workItem from="1732951642225" duration="2954000" />
       <workItem from="1732982899789" duration="72000" />
-      <workItem from="1732983298898" duration="5031000" />
-    </task>
-    <task id="LOCAL-00059" summary="Tracking Notification Optimized and added, Improve sorting, restrict tracking selection">
-      <option name="closed" value="true" />
-      <created>1729513531973</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1729513531974</updated>
+      <workItem from="1732983298898" duration="5483000" />
     </task>
     <task id="LOCAL-00060" summary="change admin email, add new payments to cloud function">
       <option name="closed" value="true" />
@@ -639,7 +628,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732986198290</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="Add orders pagination">
+      <option name="closed" value="true" />
+      <created>1732988359615</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1732988359616</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -660,7 +657,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix updating item details remove variants and fixed typo" />
     <MESSAGE value="Optimized" />
     <MESSAGE value="Fix new orders aren't arnt showup" />
     <MESSAGE value="Fix not found page layout" />
@@ -685,6 +681,7 @@
     <MESSAGE value="Can view orders" />
     <MESSAGE value="build error updated" />
     <MESSAGE value="Add item status" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add item status" />
+    <MESSAGE value="Add orders pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add orders pagination" />
   </component>
 </project>

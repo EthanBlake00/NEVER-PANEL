@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Fix new orders aren't arnt showup">
-      <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add search to inventory">
+      <change afterPath="$PROJECT_DIR$/app/dashboard/orders/components/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/orders/components/Orders.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/orderSlice/orderSlice.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/not-found.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/not-found.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,15 +21,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,11 +65,12 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;re-design&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/kawishika/Documents/Projects/Never-Panel/app/adminPanel/inventory/components&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kawishika/Documents/Projects/Never-Panel/assets&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -84,18 +88,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/utils" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app/adminPanel/inventory/components" />
       <recent name="$PROJECT_DIR$/functions/src" />
-      <recent name="$PROJECT_DIR$/app" />
-      <recent name="$PROJECT_DIR$/app/adminPanel/orders/components" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/app/adminPanel/inventory/[itemId]/components" />
-      <recent name="$PROJECT_DIR$/app/adminPanel" />
-      <recent name="$PROJECT_DIR$/components" />
-      <recent name="$PROJECT_DIR$/app/adminPanel/inventory" />
+      <recent name="$PROJECT_DIR$/app/dashboard/inventory/components" />
+      <recent name="$PROJECT_DIR$/app/dashboard" />
+      <recent name="$PROJECT_DIR$/app/api/v1/users/[userId]" />
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/app/components" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -132,8 +136,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.dev" />
       </list>
@@ -142,8 +146,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
       </set>
     </attachedChunks>
   </component>
@@ -225,159 +229,17 @@
       <workItem from="1730459174094" duration="2128000" />
       <workItem from="1730611319895" duration="977000" />
       <workItem from="1730628156916" duration="1228000" />
-      <workItem from="1730631122782" duration="2179000" />
-    </task>
-    <task id="LOCAL-00037" summary="Optimized responsive remove image preview">
-      <option name="closed" value="true" />
-      <created>1726741085272</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1726741085272</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Now, deleting items and variants will also delete attached images and files">
-      <option name="closed" value="true" />
-      <created>1726746352545</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1726746352545</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Image bug fix, loading screen added">
-      <option name="closed" value="true" />
-      <created>1726759876551</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1726759876551</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Remove table and change to card style inventory">
-      <option name="closed" value="true" />
-      <created>1726855558123</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1726855558123</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Create Item and Variant Card UI">
-      <option name="closed" value="true" />
-      <created>1727453955202</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1727453955203</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Optimized date and VariantCard.tsx">
-      <option name="closed" value="true" />
-      <created>1727495969567</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1727495969567</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Reduce Login Eye icon bug">
-      <option name="closed" value="true" />
-      <created>1727501237668</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1727501237668</updated>
-    </task>
-    <task id="LOCAL-00044" summary="add track back path to item page">
-      <option name="closed" value="true" />
-      <created>1727502351751</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1727502351751</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Fix ItemForm.tsx mobile responsive bug">
-      <option name="closed" value="true" />
-      <created>1727504118309</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1727504118309</updated>
-    </task>
-    <task id="LOCAL-00046" summary="add, add variant form Dialog">
-      <option name="closed" value="true" />
-      <created>1727508525917</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1727508525917</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Optimized">
-      <option name="closed" value="true" />
-      <created>1727508628457</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1727508628457</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Inventory is fully working now">
-      <option name="closed" value="true" />
-      <created>1727609659333</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1727609659333</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Bug fix">
-      <option name="closed" value="true" />
-      <created>1727609862674</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1727609862674</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Optimized responsive in inventory details page">
-      <option name="closed" value="true" />
-      <created>1727801513899</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1727801513899</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Variant can be updated">
-      <option name="closed" value="true" />
-      <created>1727802537887</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1727802537887</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Remove shadow">
-      <option name="closed" value="true" />
-      <created>1729180386262</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1729180386262</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Add Cloud functions">
-      <option name="closed" value="true" />
-      <created>1729180427380</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1729180427380</updated>
-    </task>
-    <task id="LOCAL-00054" summary="create order view">
-      <option name="closed" value="true" />
-      <created>1729180484271</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1729180484272</updated>
-    </task>
-    <task id="LOCAL-00055" summary="OrderView UI complete without cards">
-      <option name="closed" value="true" />
-      <created>1729186047007</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1729186047009</updated>
+      <workItem from="1730631122782" duration="15354000" />
+      <workItem from="1730657804534" duration="1718000" />
+      <workItem from="1730694280551" duration="4853000" />
+      <workItem from="1730738132195" duration="2659000" />
+      <workItem from="1730778872277" duration="7000" />
+      <workItem from="1730795184980" duration="1321000" />
+      <workItem from="1730812463016" duration="12546000" />
+      <workItem from="1730862646679" duration="22478000" />
+      <workItem from="1732514248999" duration="2133000" />
+      <workItem from="1732638665944" duration="9505000" />
+      <workItem from="1732684475104" duration="43063000" />
     </task>
     <task id="LOCAL-00056" summary="Configure for first deployment">
       <option name="closed" value="true" />
@@ -619,7 +481,159 @@
       <option name="project" value="LOCAL" />
       <updated>1730633171988</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Fix not found page layout">
+      <option name="closed" value="true" />
+      <created>1730633562712</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1730633562712</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Redux configured, alert message configured and initial commit">
+      <option name="closed" value="true" />
+      <created>1730656854055</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1730656854058</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Fix build getting fails">
+      <option name="closed" value="true" />
+      <created>1730658810319</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1730658810320</updated>
+    </task>
+    <task id="LOCAL-00089" summary="redesign not-found.tsx">
+      <option name="closed" value="true" />
+      <created>1730695856660</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1730695856661</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Dashboard structure basic complete">
+      <option name="closed" value="true" />
+      <created>1730705292462</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1730705292462</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Improved auth and can view inventory data">
+      <option name="closed" value="true" />
+      <created>1730831873771</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1730831873771</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Improved package.json">
+      <option name="closed" value="true" />
+      <created>1730832305457</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1730832305457</updated>
+    </task>
+    <task id="LOCAL-00093" summary="type and sort now working">
+      <option name="closed" value="true" />
+      <created>1730880911970</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1730880911971</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Improved">
+      <option name="closed" value="true" />
+      <created>1730892062936</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1730892062936</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Item add, update complete and optimized items fetching">
+      <option name="closed" value="true" />
+      <created>1732647403106</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1732647403107</updated>
+    </task>
+    <task id="LOCAL-00096" summary="updating and adding items now display updated and latest values">
+      <option name="closed" value="true" />
+      <created>1732648181564</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1732648181564</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Item can be delete">
+      <option name="closed" value="true" />
+      <created>1732714311714</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1732714311714</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Can view details view of an item">
+      <option name="closed" value="true" />
+      <created>1732724180049</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1732724180050</updated>
+    </task>
+    <task id="LOCAL-00099" summary="Variant can be updated">
+      <option name="closed" value="true" />
+      <created>1732809769352</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1732809769353</updated>
+    </task>
+    <task id="LOCAL-00100" summary="new variant can be added">
+      <option name="closed" value="true" />
+      <created>1732812981079</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1732812981079</updated>
+    </task>
+    <task id="LOCAL-00101" summary="Inventory complete variant image updatability to be implemented">
+      <option name="closed" value="true" />
+      <created>1732814610843</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1732814610843</updated>
+    </task>
+    <task id="LOCAL-00102" summary="add thumbnail preview">
+      <option name="closed" value="true" />
+      <created>1732815457297</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1732815457297</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Item image bug fix">
+      <option name="closed" value="true" />
+      <created>1732817342570</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1732817342572</updated>
+    </task>
+    <task id="LOCAL-00104" summary="add search to inventory">
+      <option name="closed" value="true" />
+      <created>1732819321273</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1732819321275</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -640,31 +654,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Redesign Login page improve menu design and more bug fix" />
-    <MESSAGE value="Bugs fixes, design improvements and more" />
-    <MESSAGE value="Restructure Email, Fix sum bugs in Order hero" />
-    <MESSAGE value="Barred changing status of cancelled orders" />
-    <MESSAGE value="add Records size selection and remove redundant useEffects" />
-    <MESSAGE value="add Records size selection and remove redundant useEffects" />
-    <MESSAGE value="Add Search to Orders.tsx" />
-    <MESSAGE value="Add PaymentStatusView.tsx" />
-    <MESSAGE value="PaymentStatusView.tsx update now working" />
-    <MESSAGE value="Add Table reload button and fix sms templates align bug and PaymentStatusView.tsx complete" />
-    <MESSAGE value="New Emails templates.ts" />
-    <MESSAGE value="Fix bug and add address" />
-    <MESSAGE value="Improve Error handling, Order fetching optimized and cloud function optimized" />
-    <MESSAGE value="Fix Fetching server fetching error" />
-    <MESSAGE value="reduce id length" />
-    <MESSAGE value="Fix bugs and optimized" />
-    <MESSAGE value="Remodel inventory page" />
-    <MESSAGE value="Fix Type error bug" />
-    <MESSAGE value="change constant values" />
     <MESSAGE value="inventory remodel complete" />
     <MESSAGE value="inventory remodel complete, enforced api security" />
     <MESSAGE value="Fix bug and improved consistency" />
     <MESSAGE value="Fix updating item details remove variants and fixed typo" />
     <MESSAGE value="Optimized" />
     <MESSAGE value="Fix new orders aren't arnt showup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix new orders aren't arnt showup" />
+    <MESSAGE value="Fix not found page layout" />
+    <MESSAGE value="Redux configured, alert message configured and initial commit" />
+    <MESSAGE value="Fix build getting fails" />
+    <MESSAGE value="redesign not-found.tsx" />
+    <MESSAGE value="Dashboard structure basic complete" />
+    <MESSAGE value="Improved auth and can view inventory data" />
+    <MESSAGE value="Improved package.json" />
+    <MESSAGE value="type and sort now working" />
+    <MESSAGE value="Improved" />
+    <MESSAGE value="Item add, update complete and optimized items fetching" />
+    <MESSAGE value="updating and adding items now display updated and latest values" />
+    <MESSAGE value="Item can be delete" />
+    <MESSAGE value="Can view details view of an item" />
+    <MESSAGE value="Variant can be updated" />
+    <MESSAGE value="new variant can be added" />
+    <MESSAGE value="Inventory complete variant image updatability to be implemented" />
+    <MESSAGE value="add thumbnail preview" />
+    <MESSAGE value="Item image bug fix" />
+    <MESSAGE value="add search to inventory" />
+    <option name="LAST_COMMIT_MESSAGE" value="add search to inventory" />
   </component>
 </project>

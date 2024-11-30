@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add search to inventory">
-      <change afterPath="$PROJECT_DIR$/app/dashboard/orders/components/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dashboard/orders/components/Orders.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/orderSlice/orderSlice.ts" afterDir="false" />
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="remove loadingSlice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/Header.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/OrdersTable.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/orders/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/GlobalProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/GlobalProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ordersSlice/ordersSlice.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -239,55 +240,14 @@
       <workItem from="1730862646679" duration="22478000" />
       <workItem from="1732514248999" duration="2133000" />
       <workItem from="1732638665944" duration="9505000" />
-      <workItem from="1732684475104" duration="43063000" />
-    </task>
-    <task id="LOCAL-00056" summary="Configure for first deployment">
-      <option name="closed" value="true" />
-      <created>1729363694893</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1729363694893</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Order status can be updated and view(No emails trigger to implemented)">
-      <option name="closed" value="true" />
-      <created>1729448113464</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1729448113464</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Orders can be sorted">
-      <option name="closed" value="true" />
-      <created>1729450137691</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1729450137692</updated>
-    </task>
-    <task id="LOCAL-00059" summary="Tracking Notification Optimized and added, Improve sorting, restrict tracking selection">
-      <option name="closed" value="true" />
-      <created>1729513531973</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1729513531974</updated>
-    </task>
-    <task id="LOCAL-00060" summary="change admin email, add new payments to cloud function">
-      <option name="closed" value="true" />
-      <created>1729518377195</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1729518377195</updated>
-    </task>
-    <task id="LOCAL-00061" summary="Update cloud functions">
-      <option name="closed" value="true" />
-      <created>1729536788501</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1729536788501</updated>
+      <workItem from="1732684475104" duration="43298000" />
+      <workItem from="1732899338015" duration="2317000" />
+      <workItem from="1732901675378" duration="11000" />
+      <workItem from="1732938201292" duration="1223000" />
+      <workItem from="1732951234276" duration="185000" />
+      <workItem from="1732951642225" duration="2954000" />
+      <workItem from="1732982899789" duration="72000" />
+      <workItem from="1732983298898" duration="9015000" />
     </task>
     <task id="LOCAL-00062" summary="Redesign Login page improve menu design and more bug fix">
       <option name="closed" value="true" />
@@ -633,7 +593,55 @@
       <option name="project" value="LOCAL" />
       <updated>1732819321275</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="Can view orders">
+      <option name="closed" value="true" />
+      <created>1732821585029</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1732821585030</updated>
+    </task>
+    <task id="LOCAL-00106" summary="build error updated">
+      <option name="closed" value="true" />
+      <created>1732952249961</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1732952249961</updated>
+    </task>
+    <task id="LOCAL-00107" summary="Add item status">
+      <option name="closed" value="true" />
+      <created>1732986198290</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1732986198290</updated>
+    </task>
+    <task id="LOCAL-00108" summary="Add orders pagination">
+      <option name="closed" value="true" />
+      <created>1732988359615</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1732988359616</updated>
+    </task>
+    <task id="LOCAL-00109" summary="Add orders filtering and sorting options">
+      <option name="closed" value="true" />
+      <created>1732988817658</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1732988817658</updated>
+    </task>
+    <task id="LOCAL-00110" summary="remove loadingSlice">
+      <option name="closed" value="true" />
+      <created>1732991663022</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1732991663022</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -654,12 +662,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="inventory remodel complete" />
-    <MESSAGE value="inventory remodel complete, enforced api security" />
-    <MESSAGE value="Fix bug and improved consistency" />
-    <MESSAGE value="Fix updating item details remove variants and fixed typo" />
-    <MESSAGE value="Optimized" />
-    <MESSAGE value="Fix new orders aren't arnt showup" />
     <MESSAGE value="Fix not found page layout" />
     <MESSAGE value="Redux configured, alert message configured and initial commit" />
     <MESSAGE value="Fix build getting fails" />
@@ -679,6 +681,12 @@
     <MESSAGE value="add thumbnail preview" />
     <MESSAGE value="Item image bug fix" />
     <MESSAGE value="add search to inventory" />
-    <option name="LAST_COMMIT_MESSAGE" value="add search to inventory" />
+    <MESSAGE value="Can view orders" />
+    <MESSAGE value="build error updated" />
+    <MESSAGE value="Add item status" />
+    <MESSAGE value="Add orders pagination" />
+    <MESSAGE value="Add orders filtering and sorting options" />
+    <MESSAGE value="remove loadingSlice" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove loadingSlice" />
   </component>
 </project>

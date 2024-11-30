@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="build error updated">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Add item status">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemFormDialog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/genarateIds.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/genarateIds.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/v1/orders/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/orders/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/Orders.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/OrdersTable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/orderSlice/orderSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ordersSlice/ordersSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,15 +245,7 @@
       <workItem from="1732951234276" duration="185000" />
       <workItem from="1732951642225" duration="2954000" />
       <workItem from="1732982899789" duration="72000" />
-      <workItem from="1732983298898" duration="2888000" />
-    </task>
-    <task id="LOCAL-00058" summary="Orders can be sorted">
-      <option name="closed" value="true" />
-      <created>1729450137691</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1729450137692</updated>
+      <workItem from="1732983298898" duration="5031000" />
     </task>
     <task id="LOCAL-00059" summary="Tracking Notification Optimized and added, Improve sorting, restrict tracking selection">
       <option name="closed" value="true" />
@@ -639,7 +631,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732952249961</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="Add item status">
+      <option name="closed" value="true" />
+      <created>1732986198290</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1732986198290</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -660,7 +660,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix bug and improved consistency" />
     <MESSAGE value="Fix updating item details remove variants and fixed typo" />
     <MESSAGE value="Optimized" />
     <MESSAGE value="Fix new orders aren't arnt showup" />
@@ -685,6 +684,7 @@
     <MESSAGE value="add search to inventory" />
     <MESSAGE value="Can view orders" />
     <MESSAGE value="build error updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="build error updated" />
+    <MESSAGE value="Add item status" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add item status" />
   </component>
 </project>

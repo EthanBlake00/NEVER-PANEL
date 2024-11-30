@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Can view orders">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="build error updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/Orders.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/Orders.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemFormDialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/genarateIds.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/genarateIds.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +101,7 @@
       <recent name="$PROJECT_DIR$/app/components" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -131,9 +134,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.dev" />
       </list>
@@ -240,15 +243,9 @@
       <workItem from="1732901675378" duration="11000" />
       <workItem from="1732938201292" duration="1223000" />
       <workItem from="1732951234276" duration="185000" />
-      <workItem from="1732951642225" duration="479000" />
-    </task>
-    <task id="LOCAL-00057" summary="Order status can be updated and view(No emails trigger to implemented)">
-      <option name="closed" value="true" />
-      <created>1729448113464</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1729448113464</updated>
+      <workItem from="1732951642225" duration="2954000" />
+      <workItem from="1732982899789" duration="72000" />
+      <workItem from="1732983298898" duration="2888000" />
     </task>
     <task id="LOCAL-00058" summary="Orders can be sorted">
       <option name="closed" value="true" />
@@ -634,7 +631,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732821585030</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="build error updated">
+      <option name="closed" value="true" />
+      <created>1732952249961</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1732952249961</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -655,7 +660,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="inventory remodel complete, enforced api security" />
     <MESSAGE value="Fix bug and improved consistency" />
     <MESSAGE value="Fix updating item details remove variants and fixed typo" />
     <MESSAGE value="Optimized" />
@@ -680,6 +684,7 @@
     <MESSAGE value="Item image bug fix" />
     <MESSAGE value="add search to inventory" />
     <MESSAGE value="Can view orders" />
-    <option name="LAST_COMMIT_MESSAGE" value="Can view orders" />
+    <MESSAGE value="build error updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="build error updated" />
   </component>
 </project>

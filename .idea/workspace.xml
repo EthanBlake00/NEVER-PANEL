@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="remove loadingSlice">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/Header.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/OrdersTable.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/GlobalProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/GlobalProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ordersSlice/ordersSlice.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store.ts" afterDir="false" />
-    </list>
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="remove orders" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -247,15 +238,7 @@
       <workItem from="1732951234276" duration="185000" />
       <workItem from="1732951642225" duration="2954000" />
       <workItem from="1732982899789" duration="72000" />
-      <workItem from="1732983298898" duration="9015000" />
-    </task>
-    <task id="LOCAL-00062" summary="Redesign Login page improve menu design and more bug fix">
-      <option name="closed" value="true" />
-      <created>1729539221102</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1729539221103</updated>
+      <workItem from="1732983298898" duration="9837000" />
     </task>
     <task id="LOCAL-00063" summary="Bugs fixes, design improvements and more">
       <option name="closed" value="true" />
@@ -641,7 +624,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732991663022</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="remove orders">
+      <option name="closed" value="true" />
+      <created>1732992390123</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1732992390124</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -662,7 +653,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix not found page layout" />
     <MESSAGE value="Redux configured, alert message configured and initial commit" />
     <MESSAGE value="Fix build getting fails" />
     <MESSAGE value="redesign not-found.tsx" />
@@ -687,6 +677,7 @@
     <MESSAGE value="Add orders pagination" />
     <MESSAGE value="Add orders filtering and sorting options" />
     <MESSAGE value="remove loadingSlice" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove loadingSlice" />
+    <MESSAGE value="remove orders" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove orders" />
   </component>
 </project>

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="remove orders" />
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add local">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantFormDialog.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +97,7 @@
       <recent name="$PROJECT_DIR$/app/components" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -127,8 +130,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.dev" />
@@ -239,14 +242,7 @@
       <workItem from="1732951642225" duration="2954000" />
       <workItem from="1732982899789" duration="72000" />
       <workItem from="1732983298898" duration="9837000" />
-    </task>
-    <task id="LOCAL-00063" summary="Bugs fixes, design improvements and more">
-      <option name="closed" value="true" />
-      <created>1729584093851</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1729584093852</updated>
+      <workItem from="1733026781211" duration="2156000" />
     </task>
     <task id="LOCAL-00064" summary="Restructure Email, Fix sum bugs in Order hero">
       <option name="closed" value="true" />
@@ -632,7 +628,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732992390124</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="add local">
+      <option name="closed" value="true" />
+      <created>1733026919839</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1733026919840</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,7 +657,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Redux configured, alert message configured and initial commit" />
     <MESSAGE value="Fix build getting fails" />
     <MESSAGE value="redesign not-found.tsx" />
     <MESSAGE value="Dashboard structure basic complete" />
@@ -678,6 +681,7 @@
     <MESSAGE value="Add orders filtering and sorting options" />
     <MESSAGE value="remove loadingSlice" />
     <MESSAGE value="remove orders" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove orders" />
+    <MESSAGE value="add local" />
+    <option name="LAST_COMMIT_MESSAGE" value="add local" />
   </component>
 </project>

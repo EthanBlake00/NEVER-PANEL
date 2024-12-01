@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add local">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantFormDialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constant/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,15 +242,7 @@
       <workItem from="1732951642225" duration="2954000" />
       <workItem from="1732982899789" duration="72000" />
       <workItem from="1732983298898" duration="9837000" />
-      <workItem from="1733026781211" duration="2156000" />
-    </task>
-    <task id="LOCAL-00064" summary="Restructure Email, Fix sum bugs in Order hero">
-      <option name="closed" value="true" />
-      <created>1729602506269</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1729602506269</updated>
+      <workItem from="1733026781211" duration="4660000" />
     </task>
     <task id="LOCAL-00065" summary="Barred changing status of cancelled orders">
       <option name="closed" value="true" />
@@ -636,7 +628,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733026919840</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="add local">
+      <option name="closed" value="true" />
+      <created>1733034970650</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1733034970650</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

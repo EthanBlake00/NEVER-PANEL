@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add local">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add free size">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constant/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constant/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,7 @@
       <recent name="$PROJECT_DIR$/app/components" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -130,8 +129,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.dev" />
@@ -242,15 +241,8 @@
       <workItem from="1732951642225" duration="2954000" />
       <workItem from="1732982899789" duration="72000" />
       <workItem from="1732983298898" duration="9837000" />
-      <workItem from="1733026781211" duration="4660000" />
-    </task>
-    <task id="LOCAL-00065" summary="Barred changing status of cancelled orders">
-      <option name="closed" value="true" />
-      <created>1729606491284</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1729606491284</updated>
+      <workItem from="1733026781211" duration="5714000" />
+      <workItem from="1733072324492" duration="854000" />
     </task>
     <task id="LOCAL-00066" summary="Optimized">
       <option name="closed" value="true" />
@@ -636,7 +628,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733034970650</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="add free size">
+      <option name="closed" value="true" />
+      <created>1733067019202</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1733067019202</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -657,7 +657,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix build getting fails" />
     <MESSAGE value="redesign not-found.tsx" />
     <MESSAGE value="Dashboard structure basic complete" />
     <MESSAGE value="Improved auth and can view inventory data" />
@@ -682,6 +681,7 @@
     <MESSAGE value="remove loadingSlice" />
     <MESSAGE value="remove orders" />
     <MESSAGE value="add local" />
-    <option name="LAST_COMMIT_MESSAGE" value="add local" />
+    <MESSAGE value="add free size" />
+    <option name="LAST_COMMIT_MESSAGE" value="add free size" />
   </component>
 </project>

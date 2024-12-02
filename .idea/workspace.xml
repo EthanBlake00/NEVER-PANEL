@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add free size">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Complete">
+      <change afterPath="$PROJECT_DIR$/app/api/v1/orders/today/route.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/MonthlyEarnings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/DailyEarnings.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/RecentTransactions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/RecentTransactions.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/YearlyBreakup.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,14 +249,9 @@
       <workItem from="1732983298898" duration="9837000" />
       <workItem from="1733026781211" duration="5714000" />
       <workItem from="1733072324492" duration="854000" />
-    </task>
-    <task id="LOCAL-00066" summary="Optimized">
-      <option name="closed" value="true" />
-      <created>1729612693392</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1729612693392</updated>
+      <workItem from="1733074016128" duration="86000" />
+      <workItem from="1733101756972" duration="5000" />
+      <workItem from="1733117645386" duration="9237000" />
     </task>
     <task id="LOCAL-00067" summary="add Records size selection">
       <option name="closed" value="true" />
@@ -636,7 +637,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733067019202</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="Complete">
+      <option name="closed" value="true" />
+      <created>1733074039782</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1733074039782</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -657,7 +666,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="redesign not-found.tsx" />
     <MESSAGE value="Dashboard structure basic complete" />
     <MESSAGE value="Improved auth and can view inventory data" />
     <MESSAGE value="Improved package.json" />
@@ -682,6 +690,7 @@
     <MESSAGE value="remove orders" />
     <MESSAGE value="add local" />
     <MESSAGE value="add free size" />
-    <option name="LAST_COMMIT_MESSAGE" value="add free size" />
+    <MESSAGE value="Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete" />
   </component>
 </project>

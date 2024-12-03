@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add sales overview">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/Blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/Blog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/DailyEarnings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/DailyEarnings.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/ProductPerformance.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/RecentTransactions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/RecentTransactions.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/SalesOverview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/SalesOverview.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,15 +249,7 @@
       <workItem from="1733117645386" duration="20309000" />
       <workItem from="1733150152023" duration="5000" />
       <workItem from="1733157224059" duration="736000" />
-      <workItem from="1733200933630" duration="316000" />
-    </task>
-    <task id="LOCAL-00069" summary="Add PaymentStatusView.tsx">
-      <option name="closed" value="true" />
-      <created>1729844935722</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1729844935723</updated>
+      <workItem from="1733200933630" duration="887000" />
     </task>
     <task id="LOCAL-00070" summary="PaymentStatusView.tsx update now working">
       <option name="closed" value="true" />
@@ -649,7 +635,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733141258059</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="add sales overview">
+      <option name="closed" value="true" />
+      <created>1733201383821</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1733201383821</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

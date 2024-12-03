@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add daily orders view">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add sales overview">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/orders/today/route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/Blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/Blog.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/DailyEarnings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/DailyEarnings.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/ProductPerformance.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/RecentTransactions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/RecentTransactions.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/SalesOverview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/SalesOverview.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,15 +252,10 @@
       <workItem from="1733072324492" duration="854000" />
       <workItem from="1733074016128" duration="86000" />
       <workItem from="1733101756972" duration="5000" />
-      <workItem from="1733117645386" duration="16018000" />
-    </task>
-    <task id="LOCAL-00068" summary="Add Search to Orders.tsx">
-      <option name="closed" value="true" />
-      <created>1729843313016</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1729843313016</updated>
+      <workItem from="1733117645386" duration="20309000" />
+      <workItem from="1733150152023" duration="5000" />
+      <workItem from="1733157224059" duration="736000" />
+      <workItem from="1733200933630" duration="316000" />
     </task>
     <task id="LOCAL-00069" summary="Add PaymentStatusView.tsx">
       <option name="closed" value="true" />
@@ -642,7 +641,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733134805182</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="add sales overview">
+      <option name="closed" value="true" />
+      <created>1733141258059</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1733141258059</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -663,7 +670,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Improved auth and can view inventory data" />
     <MESSAGE value="Improved package.json" />
     <MESSAGE value="type and sort now working" />
     <MESSAGE value="Improved" />
@@ -688,6 +694,7 @@
     <MESSAGE value="add free size" />
     <MESSAGE value="Complete" />
     <MESSAGE value="add daily orders view" />
-    <option name="LAST_COMMIT_MESSAGE" value="add daily orders view" />
+    <MESSAGE value="add sales overview" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sales overview" />
   </component>
 </project>

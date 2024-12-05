@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add showing buying and selling prices">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="order header ui fixed">
+      <change afterPath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/orders/components/OrdersHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ordersSlice/ordersSlice.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/Hero.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemFormDialog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/ordersActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/ordersActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/DailyEarnings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/DailyEarnings.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -102,7 +104,7 @@
       <recent name="$PROJECT_DIR$/app/components" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -135,9 +137,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.dev" />
       </list>
@@ -256,15 +258,11 @@
       <workItem from="1733157224059" duration="736000" />
       <workItem from="1733200933630" duration="5096000" />
       <workItem from="1733242913085" duration="5924000" />
-      <workItem from="1733251952767" duration="2532000" />
-    </task>
-    <task id="LOCAL-00071" summary="Add Table reload button and fix sms templates align bug and PaymentStatusView.tsx complete">
-      <option name="closed" value="true" />
-      <created>1729879924435</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1729879924435</updated>
+      <workItem from="1733251952767" duration="2585000" />
+      <workItem from="1733375776386" duration="1470000" />
+      <workItem from="1733382590995" duration="6295000" />
+      <workItem from="1733399713787" duration="2070000" />
+      <workItem from="1733403402563" duration="4959000" />
     </task>
     <task id="LOCAL-00072" summary="New Emails templates.ts">
       <option name="closed" value="true" />
@@ -650,7 +648,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733202002151</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="add new listing option">
+      <option name="closed" value="true" />
+      <created>1733254543105</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1733254543105</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -671,11 +677,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="type and sort now working" />
-    <MESSAGE value="Improved" />
-    <MESSAGE value="Item add, update complete and optimized items fetching" />
-    <MESSAGE value="updating and adding items now display updated and latest values" />
-    <MESSAGE value="Item can be delete" />
     <MESSAGE value="Can view details view of an item" />
     <MESSAGE value="Variant can be updated" />
     <MESSAGE value="new variant can be added" />
@@ -696,6 +697,11 @@
     <MESSAGE value="add daily orders view" />
     <MESSAGE value="add sales overview" />
     <MESSAGE value="add showing buying and selling prices" />
-    <option name="LAST_COMMIT_MESSAGE" value="add showing buying and selling prices" />
+    <MESSAGE value="add new listing option" />
+    <MESSAGE value="now can view daily profit" />
+    <MESSAGE value="can view orders" />
+    <MESSAGE value="ui fixed" />
+    <MESSAGE value="order header ui fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="order header ui fixed" />
   </component>
 </project>

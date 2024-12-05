@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add sales overview">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add showing buying and selling prices">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/Blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/Blog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/DailyEarnings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/DailyEarnings.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/ProductPerformance.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/RecentTransactions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/RecentTransactions.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/SalesOverview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/SalesOverview.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/Hero.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemFormDialog.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +102,7 @@
       <recent name="$PROJECT_DIR$/app/components" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.start">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -136,9 +135,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.dev" />
       </list>
@@ -255,23 +254,9 @@
       <workItem from="1733117645386" duration="20309000" />
       <workItem from="1733150152023" duration="5000" />
       <workItem from="1733157224059" duration="736000" />
-      <workItem from="1733200933630" duration="316000" />
-    </task>
-    <task id="LOCAL-00069" summary="Add PaymentStatusView.tsx">
-      <option name="closed" value="true" />
-      <created>1729844935722</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1729844935723</updated>
-    </task>
-    <task id="LOCAL-00070" summary="PaymentStatusView.tsx update now working">
-      <option name="closed" value="true" />
-      <created>1729858168443</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1729858168443</updated>
+      <workItem from="1733200933630" duration="5096000" />
+      <workItem from="1733242913085" duration="5924000" />
+      <workItem from="1733251952767" duration="2532000" />
     </task>
     <task id="LOCAL-00071" summary="Add Table reload button and fix sms templates align bug and PaymentStatusView.tsx complete">
       <option name="closed" value="true" />
@@ -649,7 +634,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733141258059</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="add sales overview">
+      <option name="closed" value="true" />
+      <created>1733201383821</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1733201383821</updated>
+    </task>
+    <task id="LOCAL-00119" summary="add showing buying and selling prices">
+      <option name="closed" value="true" />
+      <created>1733202002151</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1733202002151</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -670,7 +671,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Improved package.json" />
     <MESSAGE value="type and sort now working" />
     <MESSAGE value="Improved" />
     <MESSAGE value="Item add, update complete and optimized items fetching" />
@@ -695,6 +695,7 @@
     <MESSAGE value="Complete" />
     <MESSAGE value="add daily orders view" />
     <MESSAGE value="add sales overview" />
-    <option name="LAST_COMMIT_MESSAGE" value="add sales overview" />
+    <MESSAGE value="add showing buying and selling prices" />
+    <option name="LAST_COMMIT_MESSAGE" value="add showing buying and selling prices" />
   </component>
 </project>

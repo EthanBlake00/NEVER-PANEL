@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="fix item card stretchy bug">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="reduce max card length">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/ordersActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/ordersActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/PaymentStatusFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/PaymentStatusFormDialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ordersSlice/ordersSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ordersSlice/ordersSlice.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,15 +262,7 @@
       <workItem from="1733459584139" duration="1210000" />
       <workItem from="1733461538392" duration="12923000" />
       <workItem from="1733497516155" duration="82000" />
-      <workItem from="1733499097805" duration="852000" />
-    </task>
-    <task id="LOCAL-00075" summary="Fix Fetching server fetching error">
-      <option name="closed" value="true" />
-      <created>1730014819005</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1730014819005</updated>
+      <workItem from="1733499097805" duration="1844000" />
     </task>
     <task id="LOCAL-00076" summary="reduce id length">
       <option name="closed" value="true" />
@@ -654,7 +648,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733499281336</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="reduce max card length">
+      <option name="closed" value="true" />
+      <created>1733500011996</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1733500011996</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,7 +677,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Inventory complete variant image updatability to be implemented" />
     <MESSAGE value="add thumbnail preview" />
     <MESSAGE value="Item image bug fix" />
     <MESSAGE value="add search to inventory" />
@@ -700,6 +701,7 @@
     <MESSAGE value="add pagination and orders fetching size, loader and more" />
     <MESSAGE value="can view customer address details and also view items details of an order" />
     <MESSAGE value="fix item card stretchy bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix item card stretchy bug" />
+    <MESSAGE value="reduce max card length" />
+    <option name="LAST_COMMIT_MESSAGE" value="reduce max card length" />
   </component>
 </project>

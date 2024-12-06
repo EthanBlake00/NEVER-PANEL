@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add pagination and orders fetching size, loader and more">
-      <change afterPath="$PROJECT_DIR$/app/dashboard/orders/components/CustomerFormDialog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dashboard/orders/components/ItemsFormDialog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dashboard/orders/components/PaymentStatusFormDialog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dashboard/orders/components/TrackingFormDialog.tsx" afterDir="false" />
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="can view customer address details and also view items details of an order">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/OrdersHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/OrdersHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constant/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constant/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,15 +256,8 @@
       <workItem from="1733399713787" duration="2070000" />
       <workItem from="1733403402563" duration="6483000" />
       <workItem from="1733459584139" duration="1210000" />
-      <workItem from="1733461538392" duration="12603000" />
-    </task>
-    <task id="LOCAL-00073" summary="Fix bug and add address">
-      <option name="closed" value="true" />
-      <created>1729885570603</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1729885570604</updated>
+      <workItem from="1733461538392" duration="12923000" />
+      <workItem from="1733497516155" duration="82000" />
     </task>
     <task id="LOCAL-00074" summary="Improve Error handling, Order fetching optimized and cloud function optimized">
       <option name="closed" value="true" />
@@ -659,7 +643,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733442625808</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="can view customer address details and also view items details of an order">
+      <option name="closed" value="true" />
+      <created>1733477115501</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1733477115501</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -680,7 +672,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Variant can be updated" />
     <MESSAGE value="new variant can be added" />
     <MESSAGE value="Inventory complete variant image updatability to be implemented" />
     <MESSAGE value="add thumbnail preview" />
@@ -705,6 +696,7 @@
     <MESSAGE value="ui fixed" />
     <MESSAGE value="order header ui fixed" />
     <MESSAGE value="add pagination and orders fetching size, loader and more" />
-    <option name="LAST_COMMIT_MESSAGE" value="add pagination and orders fetching size, loader and more" />
+    <MESSAGE value="can view customer address details and also view items details of an order" />
+    <option name="LAST_COMMIT_MESSAGE" value="can view customer address details and also view items details of an order" />
   </component>
 </project>

@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Fix when deleting order if file doesn't exist break the flow">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Update cloud function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/constant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/constant.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/notifications.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/notifications.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/ordersActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/ordersActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/CustomerFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/CustomerFormDialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/PaymentStatusFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/PaymentStatusFormDialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/TrackingFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/TrackingFormDialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,31 +62,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "re-design",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/kawishika/Documents/Projects/Never-Panel/assets",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.build.executor": "Run",
-    "npm.deploy.executor": "Run",
-    "npm.dev.executor": "Run",
-    "npm.start.executor": "Run",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/home/kawishika/Documents/Projects/Never-Panel/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;re-design&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kawishika/Documents/Projects/Never-Panel/assets&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.deploy.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/kawishika/Documents/Projects/Never-Panel/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets" />
@@ -100,22 +103,12 @@
       <recent name="$PROJECT_DIR$/app/components" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/functions/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="deploy" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -143,7 +136,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
@@ -274,15 +266,8 @@
       <workItem from="1733497516155" duration="82000" />
       <workItem from="1733499097805" duration="4903000" />
       <workItem from="1733547233421" duration="1780000" />
-      <workItem from="1733563711348" duration="5318000" />
-    </task>
-    <task id="LOCAL-00079" summary="Fix Type error bug">
-      <option name="closed" value="true" />
-      <created>1730134911630</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1730134911630</updated>
+      <workItem from="1733563711348" duration="6528000" />
+      <workItem from="1733573146301" duration="6237000" />
     </task>
     <task id="LOCAL-00080" summary="change constant values">
       <option name="closed" value="true" />
@@ -668,7 +653,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733558589128</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="Update cloud function">
+      <option name="closed" value="true" />
+      <created>1733569058244</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1733569058245</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -689,7 +682,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Can view orders" />
     <MESSAGE value="build error updated" />
     <MESSAGE value="Add item status" />
     <MESSAGE value="Add orders pagination" />
@@ -714,6 +706,7 @@
     <MESSAGE value="Can update paymentStatus of a order" />
     <MESSAGE value="Can update customer if needed of an order" />
     <MESSAGE value="Fix when deleting order if file doesn't exist break the flow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix when deleting order if file doesn't exist break the flow" />
+    <MESSAGE value="Update cloud function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update cloud function" />
   </component>
 </project>

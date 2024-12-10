@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Update cloud function">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Can view and enter tracking information cant update yet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/ordersActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/ordersActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/CustomerFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/CustomerFormDialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/authAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/authAction.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/v1/users/[userId]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/users/[userId]/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/layout/header/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/layout/header/Profile.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/PaymentStatusFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/PaymentStatusFormDialog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/TrackingFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/TrackingFormDialog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/GlobalProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/GlobalProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constant/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,8 +147,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
       </set>
     </attachedChunks>
   </component>
@@ -267,15 +268,8 @@
       <workItem from="1733499097805" duration="4903000" />
       <workItem from="1733547233421" duration="1780000" />
       <workItem from="1733563711348" duration="6528000" />
-      <workItem from="1733573146301" duration="6237000" />
-    </task>
-    <task id="LOCAL-00080" summary="change constant values">
-      <option name="closed" value="true" />
-      <created>1730137236789</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1730137236789</updated>
+      <workItem from="1733573146301" duration="7347000" />
+      <workItem from="1733831103106" duration="2628000" />
     </task>
     <task id="LOCAL-00081" summary="inventory remodel complete, enforced api security">
       <option name="closed" value="true" />
@@ -661,7 +655,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733569058245</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="Can view and enter tracking information cant update yet">
+      <option name="closed" value="true" />
+      <created>1733579997844</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1733579997844</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -682,7 +684,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="build error updated" />
     <MESSAGE value="Add item status" />
     <MESSAGE value="Add orders pagination" />
     <MESSAGE value="Add orders filtering and sorting options" />
@@ -707,6 +708,7 @@
     <MESSAGE value="Can update customer if needed of an order" />
     <MESSAGE value="Fix when deleting order if file doesn't exist break the flow" />
     <MESSAGE value="Update cloud function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update cloud function" />
+    <MESSAGE value="Can view and enter tracking information cant update yet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Can view and enter tracking information cant update yet" />
   </component>
 </project>

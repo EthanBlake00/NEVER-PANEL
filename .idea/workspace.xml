@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="improve auth and add brand">
-      <change afterPath="$PROJECT_DIR$/actions/reportsAction.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dashboard/reports/components/HeaderCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dashboard/reports/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add monthly summery to reports">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/DailyEarnings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/DailyEarnings.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/layout/sidebar/MenuItems.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/layout/sidebar/MenuItems.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constant/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constant/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/RecentTransactions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/RecentTransactions.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/util.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/util.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,12 +102,22 @@
       <recent name="$PROJECT_DIR$/app/components" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/functions/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -141,6 +145,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
@@ -281,15 +286,8 @@
       <workItem from="1734149923778" duration="9000" />
       <workItem from="1734172093425" duration="598000" />
       <workItem from="1734275447501" duration="753000" />
-      <workItem from="1734321490099" duration="10066000" />
-    </task>
-    <task id="LOCAL-00082" summary="Fix bug and improved consistency">
-      <option name="closed" value="true" />
-      <created>1730199049759</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1730199049759</updated>
+      <workItem from="1734321490099" duration="10825000" />
+      <workItem from="1734338982860" duration="2216000" />
     </task>
     <task id="LOCAL-00083" summary="Fix updating item details remove variants and fixed typo">
       <option name="closed" value="true" />
@@ -675,7 +673,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733833963896</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="add monthly summery to reports">
+      <option name="closed" value="true" />
+      <created>1734332900478</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1734332900478</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -696,7 +702,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add orders pagination" />
     <MESSAGE value="Add orders filtering and sorting options" />
     <MESSAGE value="remove loadingSlice" />
     <MESSAGE value="remove orders" />
@@ -721,6 +726,7 @@
     <MESSAGE value="Update cloud function" />
     <MESSAGE value="Can view and enter tracking information cant update yet" />
     <MESSAGE value="improve auth and add brand" />
-    <option name="LAST_COMMIT_MESSAGE" value="improve auth and add brand" />
+    <MESSAGE value="add monthly summery to reports" />
+    <option name="LAST_COMMIT_MESSAGE" value="add monthly summery to reports" />
   </component>
 </project>

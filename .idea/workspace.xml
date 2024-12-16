@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Can view and enter tracking information cant update yet">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="improve auth and add brand">
+      <change afterPath="$PROJECT_DIR$/actions/reportsAction.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/reports/components/HeaderCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/reports/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/authAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/authAction.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/users/[userId]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/users/[userId]/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/layout/header/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/layout/header/Profile.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/PaymentStatusFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/PaymentStatusFormDialog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/GlobalProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/GlobalProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/DailyEarnings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/DailyEarnings.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/layout/sidebar/MenuItems.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/layout/sidebar/MenuItems.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/constant/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constant/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -269,15 +273,15 @@
       <workItem from="1733547233421" duration="1780000" />
       <workItem from="1733563711348" duration="6528000" />
       <workItem from="1733573146301" duration="7347000" />
-      <workItem from="1733831103106" duration="2628000" />
-    </task>
-    <task id="LOCAL-00081" summary="inventory remodel complete, enforced api security">
-      <option name="closed" value="true" />
-      <created>1730198103055</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1730198103057</updated>
+      <workItem from="1733831103106" duration="3934000" />
+      <workItem from="1733896068974" duration="735000" />
+      <workItem from="1733974310837" duration="10000" />
+      <workItem from="1734017162912" duration="1237000" />
+      <workItem from="1734061416621" duration="1131000" />
+      <workItem from="1734149923778" duration="9000" />
+      <workItem from="1734172093425" duration="598000" />
+      <workItem from="1734275447501" duration="753000" />
+      <workItem from="1734321490099" duration="10066000" />
     </task>
     <task id="LOCAL-00082" summary="Fix bug and improved consistency">
       <option name="closed" value="true" />
@@ -663,7 +667,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733579997844</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="improve auth and add brand">
+      <option name="closed" value="true" />
+      <created>1733833963896</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1733833963896</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -684,7 +696,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add item status" />
     <MESSAGE value="Add orders pagination" />
     <MESSAGE value="Add orders filtering and sorting options" />
     <MESSAGE value="remove loadingSlice" />
@@ -709,6 +720,7 @@
     <MESSAGE value="Fix when deleting order if file doesn't exist break the flow" />
     <MESSAGE value="Update cloud function" />
     <MESSAGE value="Can view and enter tracking information cant update yet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Can view and enter tracking information cant update yet" />
+    <MESSAGE value="improve auth and add brand" />
+    <option name="LAST_COMMIT_MESSAGE" value="improve auth and add brand" />
   </component>
 </project>

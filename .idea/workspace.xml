@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add monthly summery to reports">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Can view whole current year sales overview">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/DailyEarnings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/DailyEarnings.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/RecentTransactions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/RecentTransactions.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/util.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/util.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/SalesOverview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/SalesOverview.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +99,7 @@
       <recent name="$PROJECT_DIR$/app/components" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy">
+  <component name="RunManager" selected="npm.start">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -145,10 +142,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.deploy" />
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -287,23 +284,7 @@
       <workItem from="1734172093425" duration="598000" />
       <workItem from="1734275447501" duration="753000" />
       <workItem from="1734321490099" duration="10825000" />
-      <workItem from="1734338982860" duration="2216000" />
-    </task>
-    <task id="LOCAL-00083" summary="Fix updating item details remove variants and fixed typo">
-      <option name="closed" value="true" />
-      <created>1730389974910</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1730389974910</updated>
-    </task>
-    <task id="LOCAL-00084" summary="Optimized">
-      <option name="closed" value="true" />
-      <created>1730631507929</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1730631507929</updated>
+      <workItem from="1734338982860" duration="6210000" />
     </task>
     <task id="LOCAL-00085" summary="Fix new orders aren't arnt showup">
       <option name="closed" value="true" />
@@ -681,7 +662,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734332900478</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="remove pending orders">
+      <option name="closed" value="true" />
+      <created>1734341484191</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1734341484191</updated>
+    </task>
+    <task id="LOCAL-00133" summary="Can view whole current year sales overview">
+      <option name="closed" value="true" />
+      <created>1734344963275</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1734344963275</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -702,8 +699,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add orders filtering and sorting options" />
-    <MESSAGE value="remove loadingSlice" />
     <MESSAGE value="remove orders" />
     <MESSAGE value="add local" />
     <MESSAGE value="add free size" />
@@ -727,6 +722,8 @@
     <MESSAGE value="Can view and enter tracking information cant update yet" />
     <MESSAGE value="improve auth and add brand" />
     <MESSAGE value="add monthly summery to reports" />
-    <option name="LAST_COMMIT_MESSAGE" value="add monthly summery to reports" />
+    <MESSAGE value="remove pending orders" />
+    <MESSAGE value="Can view whole current year sales overview" />
+    <option name="LAST_COMMIT_MESSAGE" value="Can view whole current year sales overview" />
   </component>
 </project>

@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Can view whole current year sales overview">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Optimized">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/SalesOverview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/SalesOverview.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/Blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/PopularItems.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/layout/header/data.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/layout/header/data.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,15 +285,9 @@
       <workItem from="1734172093425" duration="598000" />
       <workItem from="1734275447501" duration="753000" />
       <workItem from="1734321490099" duration="10825000" />
-      <workItem from="1734338982860" duration="6210000" />
-    </task>
-    <task id="LOCAL-00085" summary="Fix new orders aren't arnt showup">
-      <option name="closed" value="true" />
-      <created>1730633171987</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1730633171988</updated>
+      <workItem from="1734338982860" duration="8317000" />
+      <workItem from="1734362049246" duration="102000" />
+      <workItem from="1734451718048" duration="333000" />
     </task>
     <task id="LOCAL-00086" summary="Fix not found page layout">
       <option name="closed" value="true" />
@@ -678,7 +673,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734344963275</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="Optimized">
+      <option name="closed" value="true" />
+      <created>1734345705957</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1734345705957</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -699,7 +702,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="remove orders" />
     <MESSAGE value="add local" />
     <MESSAGE value="add free size" />
     <MESSAGE value="Complete" />
@@ -724,6 +726,7 @@
     <MESSAGE value="add monthly summery to reports" />
     <MESSAGE value="remove pending orders" />
     <MESSAGE value="Can view whole current year sales overview" />
-    <option name="LAST_COMMIT_MESSAGE" value="Can view whole current year sales overview" />
+    <MESSAGE value="Optimized" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimized" />
   </component>
 </project>

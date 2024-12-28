@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Optimized">
-      <change afterPath="$PROJECT_DIR$/app/api/v1/reports/sales/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dashboard/reports/components/SaleReport.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.development" beforeDir="false" />
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Can view Sale report">
+      <change afterPath="$PROJECT_DIR$/app/api/v1/reports/overview/route.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/ordersActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/ordersActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/reportsAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/reportsAction.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/DailyEarnings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/DailyEarnings.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,23 +293,7 @@
       <workItem from="1734451718048" duration="333000" />
       <workItem from="1735312092428" duration="3182000" />
       <workItem from="1735359450877" duration="9736000" />
-      <workItem from="1735398026789" duration="6541000" />
-    </task>
-    <task id="LOCAL-00086" summary="Fix not found page layout">
-      <option name="closed" value="true" />
-      <created>1730633562712</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1730633562712</updated>
-    </task>
-    <task id="LOCAL-00087" summary="Redux configured, alert message configured and initial commit">
-      <option name="closed" value="true" />
-      <created>1730656854055</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1730656854058</updated>
+      <workItem from="1735398026789" duration="7936000" />
     </task>
     <task id="LOCAL-00088" summary="Fix build getting fails">
       <option name="closed" value="true" />
@@ -691,7 +671,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734345705957</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="Can view Sale report">
+      <option name="closed" value="true" />
+      <created>1735405537708</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1735405537708</updated>
+    </task>
+    <task id="LOCAL-00136" summary="Can view Sale report">
+      <option name="closed" value="true" />
+      <created>1735405562048</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1735405562048</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -712,7 +708,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add local" />
     <MESSAGE value="add free size" />
     <MESSAGE value="Complete" />
     <MESSAGE value="add daily orders view" />
@@ -737,6 +732,7 @@
     <MESSAGE value="remove pending orders" />
     <MESSAGE value="Can view whole current year sales overview" />
     <MESSAGE value="Optimized" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimized" />
+    <MESSAGE value="Can view Sale report" />
+    <option name="LAST_COMMIT_MESSAGE" value="Can view Sale report" />
   </component>
 </project>

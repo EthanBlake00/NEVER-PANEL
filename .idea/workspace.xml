@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Optimized">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Reduce latency some methods">
+      <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/Blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/PopularItems.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/layout/header/data.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/layout/header/data.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/v1/reports/overview/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/reports/overview/route.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,14 +93,14 @@
       <recent name="$PROJECT_DIR$/functions/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/utils" />
       <recent name="$PROJECT_DIR$/app/dashboard/inventory/components" />
       <recent name="$PROJECT_DIR$/app/dashboard" />
       <recent name="$PROJECT_DIR$/app/api/v1/users/[userId]" />
       <recent name="$PROJECT_DIR$/public/images" />
-      <recent name="$PROJECT_DIR$/app/components" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -143,9 +143,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.deploy" />
         <item itemvalue="npm.start" />
       </list>
@@ -154,8 +154,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
       </set>
     </attachedChunks>
   </component>
@@ -288,46 +288,9 @@
       <workItem from="1734338982860" duration="8317000" />
       <workItem from="1734362049246" duration="102000" />
       <workItem from="1734451718048" duration="333000" />
-    </task>
-    <task id="LOCAL-00086" summary="Fix not found page layout">
-      <option name="closed" value="true" />
-      <created>1730633562712</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1730633562712</updated>
-    </task>
-    <task id="LOCAL-00087" summary="Redux configured, alert message configured and initial commit">
-      <option name="closed" value="true" />
-      <created>1730656854055</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1730656854058</updated>
-    </task>
-    <task id="LOCAL-00088" summary="Fix build getting fails">
-      <option name="closed" value="true" />
-      <created>1730658810319</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1730658810320</updated>
-    </task>
-    <task id="LOCAL-00089" summary="redesign not-found.tsx">
-      <option name="closed" value="true" />
-      <created>1730695856660</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1730695856661</updated>
-    </task>
-    <task id="LOCAL-00090" summary="Dashboard structure basic complete">
-      <option name="closed" value="true" />
-      <created>1730705292462</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1730705292462</updated>
+      <workItem from="1735312092428" duration="3182000" />
+      <workItem from="1735359450877" duration="9736000" />
+      <workItem from="1735398026789" duration="9952000" />
     </task>
     <task id="LOCAL-00091" summary="Improved auth and can view inventory data">
       <option name="closed" value="true" />
@@ -681,7 +644,47 @@
       <option name="project" value="LOCAL" />
       <updated>1734345705957</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="Can view Sale report">
+      <option name="closed" value="true" />
+      <created>1735405537708</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1735405537708</updated>
+    </task>
+    <task id="LOCAL-00136" summary="Can view Sale report">
+      <option name="closed" value="true" />
+      <created>1735405562048</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1735405562048</updated>
+    </task>
+    <task id="LOCAL-00137" summary="Move all calculations to server in reports">
+      <option name="closed" value="true" />
+      <created>1735407101315</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1735407101315</updated>
+    </task>
+    <task id="LOCAL-00138" summary="Add new loading state">
+      <option name="closed" value="true" />
+      <created>1735407686755</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1735407686755</updated>
+    </task>
+    <task id="LOCAL-00139" summary="Reduce latency some methods">
+      <option name="closed" value="true" />
+      <created>1735408457050</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1735408457050</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -702,10 +705,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add local" />
-    <MESSAGE value="add free size" />
-    <MESSAGE value="Complete" />
-    <MESSAGE value="add daily orders view" />
     <MESSAGE value="add sales overview" />
     <MESSAGE value="add showing buying and selling prices" />
     <MESSAGE value="add new listing option" />
@@ -727,6 +726,10 @@
     <MESSAGE value="remove pending orders" />
     <MESSAGE value="Can view whole current year sales overview" />
     <MESSAGE value="Optimized" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimized" />
+    <MESSAGE value="Can view Sale report" />
+    <MESSAGE value="Move all calculations to server in reports" />
+    <MESSAGE value="Add new loading state" />
+    <MESSAGE value="Reduce latency some methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reduce latency some methods" />
   </component>
 </project>

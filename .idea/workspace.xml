@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Can view Sale report">
-      <change afterPath="$PROJECT_DIR$/app/api/v1/reports/overview/route.ts" afterDir="false" />
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Move all calculations to server in reports">
       <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/reportsAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/reportsAction.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/DailyEarnings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/DailyEarnings.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -293,15 +289,7 @@
       <workItem from="1734451718048" duration="333000" />
       <workItem from="1735312092428" duration="3182000" />
       <workItem from="1735359450877" duration="9736000" />
-      <workItem from="1735398026789" duration="7936000" />
-    </task>
-    <task id="LOCAL-00088" summary="Fix build getting fails">
-      <option name="closed" value="true" />
-      <created>1730658810319</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1730658810320</updated>
+      <workItem from="1735398026789" duration="8607000" />
     </task>
     <task id="LOCAL-00089" summary="redesign not-found.tsx">
       <option name="closed" value="true" />
@@ -687,7 +675,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735405562048</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="Move all calculations to server in reports">
+      <option name="closed" value="true" />
+      <created>1735407101315</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1735407101315</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -708,7 +704,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add free size" />
     <MESSAGE value="Complete" />
     <MESSAGE value="add daily orders view" />
     <MESSAGE value="add sales overview" />
@@ -733,6 +728,7 @@
     <MESSAGE value="Can view whole current year sales overview" />
     <MESSAGE value="Optimized" />
     <MESSAGE value="Can view Sale report" />
-    <option name="LAST_COMMIT_MESSAGE" value="Can view Sale report" />
+    <MESSAGE value="Move all calculations to server in reports" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move all calculations to server in reports" />
   </component>
 </project>

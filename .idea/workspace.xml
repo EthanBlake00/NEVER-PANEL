@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="reduce duplicates">
-      <change afterPath="$PROJECT_DIR$/app/api/v1/reports/overview/monthly/route.ts" afterDir="false" />
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Move daily overview calculate to server">
       <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/reportsAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/reportsAction.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/reports/overview/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/reports/overview/daily/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/reports/sales/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/reports/sales/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/DailyEarnings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/DailyEarnings.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -295,15 +290,7 @@
       <workItem from="1735312092428" duration="3182000" />
       <workItem from="1735359450877" duration="9736000" />
       <workItem from="1735398026789" duration="10252000" />
-      <workItem from="1735443569866" duration="1558000" />
-    </task>
-    <task id="LOCAL-00092" summary="Improved package.json">
-      <option name="closed" value="true" />
-      <created>1730832305457</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1730832305457</updated>
+      <workItem from="1735443569866" duration="3066000" />
     </task>
     <task id="LOCAL-00093" summary="type and sort now working">
       <option name="closed" value="true" />
@@ -689,7 +676,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735409079331</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="Move daily overview calculate to server">
+      <option name="closed" value="true" />
+      <created>1735445205148</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1735445205149</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -710,7 +705,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add showing buying and selling prices" />
     <MESSAGE value="add new listing option" />
     <MESSAGE value="now can view daily profit" />
     <MESSAGE value="can view orders" />
@@ -735,6 +729,7 @@
     <MESSAGE value="Add new loading state" />
     <MESSAGE value="Reduce latency some methods" />
     <MESSAGE value="reduce duplicates" />
-    <option name="LAST_COMMIT_MESSAGE" value="reduce duplicates" />
+    <MESSAGE value="Move daily overview calculate to server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move daily overview calculate to server" />
   </component>
 </project>

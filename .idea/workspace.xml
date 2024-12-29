@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Fix the bug where wrong calculation in daily and monthly overview">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Disabled item delete">
+      <change afterPath="$PROJECT_DIR$/app/api/v1/reports/stock/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/reports/components/StockReport.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/reportsAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/reportsAction.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -290,15 +295,7 @@
       <workItem from="1735312092428" duration="3182000" />
       <workItem from="1735359450877" duration="9736000" />
       <workItem from="1735398026789" duration="10252000" />
-      <workItem from="1735443569866" duration="3853000" />
-    </task>
-    <task id="LOCAL-00094" summary="Improved">
-      <option name="closed" value="true" />
-      <created>1730892062936</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1730892062936</updated>
+      <workItem from="1735443569866" duration="7861000" />
     </task>
     <task id="LOCAL-00095" summary="Item add, update complete and optimized items fetching">
       <option name="closed" value="true" />
@@ -684,7 +681,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735446702154</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="Disabled item delete">
+      <option name="closed" value="true" />
+      <created>1735447480222</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1735447480223</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -705,7 +710,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="now can view daily profit" />
     <MESSAGE value="can view orders" />
     <MESSAGE value="ui fixed" />
     <MESSAGE value="order header ui fixed" />
@@ -730,6 +734,7 @@
     <MESSAGE value="reduce duplicates" />
     <MESSAGE value="Move daily overview calculate to server" />
     <MESSAGE value="Fix the bug where wrong calculation in daily and monthly overview" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix the bug where wrong calculation in daily and monthly overview" />
+    <MESSAGE value="Disabled item delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Disabled item delete" />
   </component>
 </project>

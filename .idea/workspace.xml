@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Add StockReport.tsx">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Fix button disabled">
       <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,23 +292,9 @@
       <workItem from="1735359450877" duration="9736000" />
       <workItem from="1735398026789" duration="10252000" />
       <workItem from="1735443569866" duration="8089000" />
-      <workItem from="1735470201256" duration="163000" />
-    </task>
-    <task id="LOCAL-00096" summary="updating and adding items now display updated and latest values">
-      <option name="closed" value="true" />
-      <created>1732648181564</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1732648181564</updated>
-    </task>
-    <task id="LOCAL-00097" summary="Item can be delete">
-      <option name="closed" value="true" />
-      <created>1732714311714</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1732714311714</updated>
+      <workItem from="1735470201256" duration="982000" />
+      <workItem from="1735533658698" duration="689000" />
+      <workItem from="1735626972633" duration="108000" />
     </task>
     <task id="LOCAL-00098" summary="Can view details view of an item">
       <option name="closed" value="true" />
@@ -685,7 +672,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735453077295</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="Fix button disabled">
+      <option name="closed" value="true" />
+      <created>1735470455696</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1735470455697</updated>
+    </task>
+    <task id="LOCAL-00146" summary="Fix button disabled">
+      <option name="closed" value="true" />
+      <created>1735470472664</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1735470472664</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -706,7 +709,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ui fixed" />
     <MESSAGE value="order header ui fixed" />
     <MESSAGE value="add pagination and orders fetching size, loader and more" />
     <MESSAGE value="can view customer address details and also view items details of an order" />
@@ -731,6 +733,7 @@
     <MESSAGE value="Fix the bug where wrong calculation in daily and monthly overview" />
     <MESSAGE value="Disabled item delete" />
     <MESSAGE value="Add StockReport.tsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add StockReport.tsx" />
+    <MESSAGE value="Fix button disabled" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix button disabled" />
   </component>
 </project>

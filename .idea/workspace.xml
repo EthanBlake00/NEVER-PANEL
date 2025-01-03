@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Add discount">
-      <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Now sale reports show totals orders and total discount">
+      <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/RecentTransactions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/RecentTransactions.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,46 +294,8 @@
       <workItem from="1735470201256" duration="982000" />
       <workItem from="1735533658698" duration="689000" />
       <workItem from="1735626972633" duration="1933000" />
-    </task>
-    <task id="LOCAL-00099" summary="Variant can be updated">
-      <option name="closed" value="true" />
-      <created>1732809769352</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1732809769353</updated>
-    </task>
-    <task id="LOCAL-00100" summary="new variant can be added">
-      <option name="closed" value="true" />
-      <created>1732812981079</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1732812981079</updated>
-    </task>
-    <task id="LOCAL-00101" summary="Inventory complete variant image updatability to be implemented">
-      <option name="closed" value="true" />
-      <created>1732814610843</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1732814610843</updated>
-    </task>
-    <task id="LOCAL-00102" summary="add thumbnail preview">
-      <option name="closed" value="true" />
-      <created>1732815457297</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1732815457297</updated>
-    </task>
-    <task id="LOCAL-00103" summary="Item image bug fix">
-      <option name="closed" value="true" />
-      <created>1732817342570</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1732817342572</updated>
+      <workItem from="1735879959613" duration="54000" />
+      <workItem from="1735880971156" duration="9014000" />
     </task>
     <task id="LOCAL-00104" summary="add search to inventory">
       <option name="closed" value="true" />
@@ -687,7 +649,47 @@
       <option name="project" value="LOCAL" />
       <updated>1735627436976</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="Fix date">
+      <option name="closed" value="true" />
+      <created>1735837145539</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1735837145540</updated>
+    </task>
+    <task id="LOCAL-00149" summary="Add date year and month selection to reports for get quick overview">
+      <option name="closed" value="true" />
+      <created>1735885602115</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1735885602115</updated>
+    </task>
+    <task id="LOCAL-00150" summary="add new discount column">
+      <option name="closed" value="true" />
+      <created>1735885647725</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1735885647725</updated>
+    </task>
+    <task id="LOCAL-00151" summary="Add range of date to SaleReport.tsx">
+      <option name="closed" value="true" />
+      <created>1735886470038</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1735886470038</updated>
+    </task>
+    <task id="LOCAL-00152" summary="Now sale reports show totals orders and total discount">
+      <option name="closed" value="true" />
+      <created>1735899468711</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1735899468711</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -708,11 +710,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add pagination and orders fetching size, loader and more" />
-    <MESSAGE value="can view customer address details and also view items details of an order" />
-    <MESSAGE value="fix item card stretchy bug" />
-    <MESSAGE value="reduce max card length" />
-    <MESSAGE value="Can update paymentStatus of a order" />
     <MESSAGE value="Can update customer if needed of an order" />
     <MESSAGE value="Fix when deleting order if file doesn't exist break the flow" />
     <MESSAGE value="Update cloud function" />
@@ -733,6 +730,11 @@
     <MESSAGE value="Add StockReport.tsx" />
     <MESSAGE value="Fix button disabled" />
     <MESSAGE value="Add discount" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add discount" />
+    <MESSAGE value="Fix date" />
+    <MESSAGE value="Add date year and month selection to reports for get quick overview" />
+    <MESSAGE value="add new discount column" />
+    <MESSAGE value="Add range of date to SaleReport.tsx" />
+    <MESSAGE value="Now sale reports show totals orders and total discount" />
+    <option name="LAST_COMMIT_MESSAGE" value="Now sale reports show totals orders and total discount" />
   </component>
 </project>

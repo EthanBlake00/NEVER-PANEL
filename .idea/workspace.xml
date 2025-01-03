@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="RecentTransactions.tsx show more details">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Optimized">
       <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/SaleReport.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/reports/components/SaleReport.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/OrdersHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/OrdersHeader.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,23 +295,7 @@
       <workItem from="1735533658698" duration="689000" />
       <workItem from="1735626972633" duration="1933000" />
       <workItem from="1735879959613" duration="54000" />
-      <workItem from="1735880971156" duration="11724000" />
-    </task>
-    <task id="LOCAL-00105" summary="Can view orders">
-      <option name="closed" value="true" />
-      <created>1732821585029</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1732821585030</updated>
-    </task>
-    <task id="LOCAL-00106" summary="build error updated">
-      <option name="closed" value="true" />
-      <created>1732952249961</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1732952249961</updated>
+      <workItem from="1735880971156" duration="14337000" />
     </task>
     <task id="LOCAL-00107" summary="Add item status">
       <option name="closed" value="true" />
@@ -690,7 +673,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735901982244</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="Improve null checks in reports">
+      <option name="closed" value="true" />
+      <created>1735917719619</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1735917719619</updated>
+    </task>
+    <task id="LOCAL-00155" summary="Optimized">
+      <option name="closed" value="true" />
+      <created>1735922094264</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1735922094265</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -711,14 +710,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix when deleting order if file doesn't exist break the flow" />
     <MESSAGE value="Update cloud function" />
     <MESSAGE value="Can view and enter tracking information cant update yet" />
     <MESSAGE value="improve auth and add brand" />
     <MESSAGE value="add monthly summery to reports" />
     <MESSAGE value="remove pending orders" />
     <MESSAGE value="Can view whole current year sales overview" />
-    <MESSAGE value="Optimized" />
     <MESSAGE value="Can view Sale report" />
     <MESSAGE value="Move all calculations to server in reports" />
     <MESSAGE value="Add new loading state" />
@@ -736,6 +733,8 @@
     <MESSAGE value="Add range of date to SaleReport.tsx" />
     <MESSAGE value="Now sale reports show totals orders and total discount" />
     <MESSAGE value="RecentTransactions.tsx show more details" />
-    <option name="LAST_COMMIT_MESSAGE" value="RecentTransactions.tsx show more details" />
+    <MESSAGE value="Improve null checks in reports" />
+    <MESSAGE value="Optimized" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimized" />
   </component>
 </project>

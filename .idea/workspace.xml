@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Fix date">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add new discount column">
       <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/reportsAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/reportsAction.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/reports/overview/monthly/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/reports/overview/monthly/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/SaleReport.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/reports/components/SaleReport.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,23 +296,7 @@
       <workItem from="1735533658698" duration="689000" />
       <workItem from="1735626972633" duration="1933000" />
       <workItem from="1735879959613" duration="54000" />
-      <workItem from="1735880971156" duration="4567000" />
-    </task>
-    <task id="LOCAL-00100" summary="new variant can be added">
-      <option name="closed" value="true" />
-      <created>1732812981079</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1732812981079</updated>
-    </task>
-    <task id="LOCAL-00101" summary="Inventory complete variant image updatability to be implemented">
-      <option name="closed" value="true" />
-      <created>1732814610843</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1732814610843</updated>
+      <workItem from="1735880971156" duration="5481000" />
     </task>
     <task id="LOCAL-00102" summary="add thumbnail preview">
       <option name="closed" value="true" />
@@ -693,7 +674,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735837145540</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="Add date year and month selection to reports for get quick overview">
+      <option name="closed" value="true" />
+      <created>1735885602115</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1735885602115</updated>
+    </task>
+    <task id="LOCAL-00150" summary="add new discount column">
+      <option name="closed" value="true" />
+      <created>1735885647725</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1735885647725</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -714,8 +711,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="can view customer address details and also view items details of an order" />
-    <MESSAGE value="fix item card stretchy bug" />
     <MESSAGE value="reduce max card length" />
     <MESSAGE value="Can update paymentStatus of a order" />
     <MESSAGE value="Can update customer if needed of an order" />
@@ -739,6 +734,8 @@
     <MESSAGE value="Fix button disabled" />
     <MESSAGE value="Add discount" />
     <MESSAGE value="Fix date" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix date" />
+    <MESSAGE value="Add date year and month selection to reports for get quick overview" />
+    <MESSAGE value="add new discount column" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new discount column" />
   </component>
 </project>

@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add cost summery card to report">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Fix long report date">
       <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/reportsAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/reportsAction.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/CashReport.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/reports/components/CashReport.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/StockReport.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/reports/components/StockReport.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,15 +302,7 @@
       <workItem from="1735879959613" duration="54000" />
       <workItem from="1735880971156" duration="17664000" />
       <workItem from="1735979288746" duration="619000" />
-      <workItem from="1735988029331" duration="2536000" />
-    </task>
-    <task id="LOCAL-00113" summary="add local">
-      <option name="closed" value="true" />
-      <created>1733034970650</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1733034970650</updated>
+      <workItem from="1735988029331" duration="6047000" />
     </task>
     <task id="LOCAL-00114" summary="add free size">
       <option name="closed" value="true" />
@@ -690,7 +688,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735990207808</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="Fix long report date">
+      <option name="closed" value="true" />
+      <created>1735990614986</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1735990614986</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -711,7 +717,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Can view whole current year sales overview" />
     <MESSAGE value="Can view Sale report" />
     <MESSAGE value="Move all calculations to server in reports" />
     <MESSAGE value="Add new loading state" />
@@ -736,6 +741,7 @@
     <MESSAGE value="Remove seconds from when selecting date in reports" />
     <MESSAGE value="Remove milliseconds from when selecting date in reports" />
     <MESSAGE value="add cost summery card to report" />
-    <option name="LAST_COMMIT_MESSAGE" value="add cost summery card to report" />
+    <MESSAGE value="Fix long report date" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix long report date" />
   </component>
 </project>

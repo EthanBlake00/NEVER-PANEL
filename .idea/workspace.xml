@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Remove seconds from when selecting date in reports">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Remove milliseconds from when selecting date in reports">
       <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" afterDir="false" />
@@ -297,23 +297,7 @@
       <workItem from="1735879959613" duration="54000" />
       <workItem from="1735880971156" duration="17664000" />
       <workItem from="1735979288746" duration="619000" />
-      <workItem from="1735988029331" duration="1465000" />
-    </task>
-    <task id="LOCAL-00110" summary="remove loadingSlice">
-      <option name="closed" value="true" />
-      <created>1732991663022</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1732991663022</updated>
-    </task>
-    <task id="LOCAL-00111" summary="remove orders">
-      <option name="closed" value="true" />
-      <created>1732992390123</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1732992390124</updated>
+      <workItem from="1735988029331" duration="2076000" />
     </task>
     <task id="LOCAL-00112" summary="add local">
       <option name="closed" value="true" />
@@ -691,7 +675,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735989358069</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="Remove milliseconds from when selecting date in reports">
+      <option name="closed" value="true" />
+      <created>1735989548382</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1735989548382</updated>
+    </task>
+    <task id="LOCAL-00160" summary="Remove milliseconds from when selecting date in reports">
+      <option name="closed" value="true" />
+      <created>1735989601554</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1735989601554</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -712,7 +712,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add monthly summery to reports" />
     <MESSAGE value="remove pending orders" />
     <MESSAGE value="Can view whole current year sales overview" />
     <MESSAGE value="Can view Sale report" />
@@ -737,6 +736,7 @@
     <MESSAGE value="Orders can now search" />
     <MESSAGE value="Fix order count bug" />
     <MESSAGE value="Remove seconds from when selecting date in reports" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove seconds from when selecting date in reports" />
+    <MESSAGE value="Remove milliseconds from when selecting date in reports" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove milliseconds from when selecting date in reports" />
   </component>
 </project>

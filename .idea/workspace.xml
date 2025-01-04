@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Optimized">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Remove seconds from when selecting date in reports">
       <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/OrdersHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/OrdersHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -295,31 +295,9 @@
       <workItem from="1735533658698" duration="689000" />
       <workItem from="1735626972633" duration="1933000" />
       <workItem from="1735879959613" duration="54000" />
-      <workItem from="1735880971156" duration="14337000" />
-    </task>
-    <task id="LOCAL-00107" summary="Add item status">
-      <option name="closed" value="true" />
-      <created>1732986198290</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1732986198290</updated>
-    </task>
-    <task id="LOCAL-00108" summary="Add orders pagination">
-      <option name="closed" value="true" />
-      <created>1732988359615</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1732988359616</updated>
-    </task>
-    <task id="LOCAL-00109" summary="Add orders filtering and sorting options">
-      <option name="closed" value="true" />
-      <created>1732988817658</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1732988817658</updated>
+      <workItem from="1735880971156" duration="17664000" />
+      <workItem from="1735979288746" duration="619000" />
+      <workItem from="1735988029331" duration="1465000" />
     </task>
     <task id="LOCAL-00110" summary="remove loadingSlice">
       <option name="closed" value="true" />
@@ -689,7 +667,31 @@
       <option name="project" value="LOCAL" />
       <updated>1735922094265</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="Orders can now search">
+      <option name="closed" value="true" />
+      <created>1735923065646</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1735923065647</updated>
+    </task>
+    <task id="LOCAL-00157" summary="Fix order count bug">
+      <option name="closed" value="true" />
+      <created>1735988422381</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1735988422383</updated>
+    </task>
+    <task id="LOCAL-00158" summary="Remove seconds from when selecting date in reports">
+      <option name="closed" value="true" />
+      <created>1735989358069</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1735989358069</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -710,9 +712,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update cloud function" />
-    <MESSAGE value="Can view and enter tracking information cant update yet" />
-    <MESSAGE value="improve auth and add brand" />
     <MESSAGE value="add monthly summery to reports" />
     <MESSAGE value="remove pending orders" />
     <MESSAGE value="Can view whole current year sales overview" />
@@ -735,6 +734,9 @@
     <MESSAGE value="RecentTransactions.tsx show more details" />
     <MESSAGE value="Improve null checks in reports" />
     <MESSAGE value="Optimized" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimized" />
+    <MESSAGE value="Orders can now search" />
+    <MESSAGE value="Fix order count bug" />
+    <MESSAGE value="Remove seconds from when selecting date in reports" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove seconds from when selecting date in reports" />
   </component>
 </project>

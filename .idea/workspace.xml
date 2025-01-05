@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Now can orders get by choosing date">
-      <change afterPath="$PROJECT_DIR$/app/dashboard/expenses/components/ExpensesTable.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dashboard/expenses/components/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dashboard/expenses/page.tsx" afterDir="false" />
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add new expenses page">
       <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/layout/sidebar/MenuItems.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/layout/sidebar/MenuItems.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/expenses/components/ExpensesTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/expenses/components/ExpensesTable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/expenses/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/expenses/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/expenses/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/expenses/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/HeaderCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/shared/HeaderCard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,11 +96,11 @@
       <recent name="$PROJECT_DIR$/app/adminPanel/inventory/components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/api/v1/orders/date" />
-      <recent name="$PROJECT_DIR$/app/api/v1/orders/date/[date]" />
-      <recent name="$PROJECT_DIR$/app/api/v1/reports/overview/monthly" />
+      <recent name="$PROJECT_DIR$/app/dashboard/components/shared" />
+      <recent name="$PROJECT_DIR$/app/dashboard/components" />
       <recent name="$PROJECT_DIR$/utils" />
-      <recent name="$PROJECT_DIR$/app/dashboard/inventory/components" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app/api/v1/orders/date" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -303,15 +303,8 @@
       <workItem from="1735979288746" duration="619000" />
       <workItem from="1735988029331" duration="6078000" />
       <workItem from="1736007793096" duration="5630000" />
-      <workItem from="1736052105525" duration="1911000" />
-    </task>
-    <task id="LOCAL-00117" summary="add sales overview">
-      <option name="closed" value="true" />
-      <created>1733141258059</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1733141258059</updated>
+      <workItem from="1736052105525" duration="4346000" />
+      <workItem from="1736062513902" duration="6210000" />
     </task>
     <task id="LOCAL-00118" summary="add sales overview">
       <option name="closed" value="true" />
@@ -697,7 +690,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736014232231</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="add new expenses page">
+      <option name="closed" value="true" />
+      <created>1736055888528</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1736055888529</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -718,7 +719,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Reduce latency some methods" />
     <MESSAGE value="reduce duplicates" />
     <MESSAGE value="Move daily overview calculate to server" />
     <MESSAGE value="Fix the bug where wrong calculation in daily and monthly overview" />
@@ -743,6 +743,7 @@
     <MESSAGE value="Add cash flow report" />
     <MESSAGE value="Increase font size in cash report" />
     <MESSAGE value="Now can orders get by choosing date" />
-    <option name="LAST_COMMIT_MESSAGE" value="Now can orders get by choosing date" />
+    <MESSAGE value="add new expenses page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new expenses page" />
   </component>
 </project>

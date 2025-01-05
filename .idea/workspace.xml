@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Increase font size in cash report">
-      <change afterPath="$PROJECT_DIR$/app/api/v1/orders/date/route.ts" afterDir="false" />
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Now can orders get by choosing date">
+      <change afterPath="$PROJECT_DIR$/app/dashboard/expenses/components/ExpensesTable.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/expenses/components/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/expenses/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/ordersActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/ordersActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/OrdersHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/OrdersHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/layout/sidebar/MenuItems.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/layout/sidebar/MenuItems.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -302,15 +302,8 @@
       <workItem from="1735880971156" duration="17664000" />
       <workItem from="1735979288746" duration="619000" />
       <workItem from="1735988029331" duration="6078000" />
-      <workItem from="1736007793096" duration="5526000" />
-    </task>
-    <task id="LOCAL-00116" summary="add daily orders view">
-      <option name="closed" value="true" />
-      <created>1733134805182</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1733134805182</updated>
+      <workItem from="1736007793096" duration="5630000" />
+      <workItem from="1736052105525" duration="1911000" />
     </task>
     <task id="LOCAL-00117" summary="add sales overview">
       <option name="closed" value="true" />
@@ -696,7 +689,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736008791065</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="Now can orders get by choosing date">
+      <option name="closed" value="true" />
+      <created>1736014232231</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1736014232231</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -717,7 +718,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add new loading state" />
     <MESSAGE value="Reduce latency some methods" />
     <MESSAGE value="reduce duplicates" />
     <MESSAGE value="Move daily overview calculate to server" />
@@ -742,6 +742,7 @@
     <MESSAGE value="Fix long report date" />
     <MESSAGE value="Add cash flow report" />
     <MESSAGE value="Increase font size in cash report" />
-    <option name="LAST_COMMIT_MESSAGE" value="Increase font size in cash report" />
+    <MESSAGE value="Now can orders get by choosing date" />
+    <option name="LAST_COMMIT_MESSAGE" value="Now can orders get by choosing date" />
   </component>
 </project>

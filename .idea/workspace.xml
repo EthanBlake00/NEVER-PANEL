@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Optimized">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Remove unnecessary console logs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantFormDialog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/OrdersHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/OrdersHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/middleware.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,23 +302,8 @@
       <workItem from="1736062513902" duration="11087000" />
       <workItem from="1736092871876" duration="642000" />
       <workItem from="1736135439417" duration="20717000" />
-      <workItem from="1736173766230" duration="8993000" />
-    </task>
-    <task id="LOCAL-00130" summary="improve auth and add brand">
-      <option name="closed" value="true" />
-      <created>1733833963896</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1733833963896</updated>
-    </task>
-    <task id="LOCAL-00131" summary="add monthly summery to reports">
-      <option name="closed" value="true" />
-      <created>1734332900478</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1734332900478</updated>
+      <workItem from="1736173766230" duration="9310000" />
+      <workItem from="1736183947063" duration="267000" />
     </task>
     <task id="LOCAL-00132" summary="remove pending orders">
       <option name="closed" value="true" />
@@ -703,7 +681,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736182222946</updated>
     </task>
-    <option name="localTasksCounter" value="179" />
+    <task id="LOCAL-00179" summary="Remove unnecessary console logs">
+      <option name="closed" value="true" />
+      <created>1736182932210</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1736182932210</updated>
+    </task>
+    <task id="LOCAL-00180" summary="Remove unnecessary console logs">
+      <option name="closed" value="true" />
+      <created>1736183029698</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1736183029698</updated>
+    </task>
+    <option name="localTasksCounter" value="181" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -724,7 +718,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add range of date to SaleReport.tsx" />
     <MESSAGE value="Now sale reports show totals orders and total discount" />
     <MESSAGE value="RecentTransactions.tsx show more details" />
     <MESSAGE value="Improve null checks in reports" />
@@ -749,6 +742,7 @@
     <MESSAGE value="Improve reports" />
     <MESSAGE value="Improve authentication" />
     <MESSAGE value="Optimized" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimized" />
+    <MESSAGE value="Remove unnecessary console logs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove unnecessary console logs" />
   </component>
 </project>

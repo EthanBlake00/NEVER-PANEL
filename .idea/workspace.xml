@@ -4,31 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Improve reports">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Optimized">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/authAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/authAction.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/expenses/[expenseId]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/expenses/[expenseId]/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/expenses/overview/monthly/route.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/expenses/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/expenses/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/inventory/[itemId]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/inventory/[itemId]/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/inventory/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/inventory/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/orders/[orderId]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/orders/[orderId]/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/orders/date/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/orders/date/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/orders/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/orders/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/reports/cash/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/reports/cash/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/reports/expense/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/reports/expense/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/reports/overview/daily/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/reports/overview/daily/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/reports/overview/monthly/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/reports/overview/monthly/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/reports/sales/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/reports/sales/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/reports/stock/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/reports/stock/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/storage/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/storage/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/users/[userId]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/users/[userId]/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/AuthLogin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/AuthLogin.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/GlobalProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/GlobalProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/authSlice/authSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/authSlice/authSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/components/VariantFormDialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/[itemId]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/OrdersHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/OrdersHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/middleware.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -325,15 +309,7 @@
       <workItem from="1736062513902" duration="11087000" />
       <workItem from="1736092871876" duration="642000" />
       <workItem from="1736135439417" duration="20717000" />
-      <workItem from="1736173766230" duration="8347000" />
-    </task>
-    <task id="LOCAL-00129" summary="Can view and enter tracking information cant update yet">
-      <option name="closed" value="true" />
-      <created>1733579997844</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1733579997844</updated>
+      <workItem from="1736173766230" duration="8993000" />
     </task>
     <task id="LOCAL-00130" summary="improve auth and add brand">
       <option name="closed" value="true" />
@@ -719,7 +695,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736178816032</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="Improve authentication">
+      <option name="closed" value="true" />
+      <created>1736182222945</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1736182222946</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -740,12 +724,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add new discount column" />
     <MESSAGE value="Add range of date to SaleReport.tsx" />
     <MESSAGE value="Now sale reports show totals orders and total discount" />
     <MESSAGE value="RecentTransactions.tsx show more details" />
     <MESSAGE value="Improve null checks in reports" />
-    <MESSAGE value="Optimized" />
     <MESSAGE value="Orders can now search" />
     <MESSAGE value="Fix order count bug" />
     <MESSAGE value="Remove seconds from when selecting date in reports" />
@@ -765,6 +747,8 @@
     <MESSAGE value="Complete expense report" />
     <MESSAGE value="Fixed cash report wrong value bug" />
     <MESSAGE value="Improve reports" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improve reports" />
+    <MESSAGE value="Improve authentication" />
+    <MESSAGE value="Optimized" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimized" />
   </component>
 </project>

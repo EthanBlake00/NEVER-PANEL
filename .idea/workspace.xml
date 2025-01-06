@@ -4,14 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add new expenses page">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="expense Header complete">
+      <change afterPath="$PROJECT_DIR$/actions/expenseAction.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/v1/expenses/[expenseId]/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/v1/expenses/overview/monthly/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/v1/expenses/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/expensesSlice/expensesSlice.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ComponentsLoader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ComponentsLoader.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/expenses/components/ExpensesTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/expenses/components/ExpensesTable.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/expenses/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/expenses/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/expenses/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/expenses/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/HeaderCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/shared/HeaderCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/users/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/users/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -304,15 +313,9 @@
       <workItem from="1735988029331" duration="6078000" />
       <workItem from="1736007793096" duration="5630000" />
       <workItem from="1736052105525" duration="4346000" />
-      <workItem from="1736062513902" duration="6210000" />
-    </task>
-    <task id="LOCAL-00118" summary="add sales overview">
-      <option name="closed" value="true" />
-      <created>1733201383821</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1733201383821</updated>
+      <workItem from="1736062513902" duration="11087000" />
+      <workItem from="1736092871876" duration="642000" />
+      <workItem from="1736135439417" duration="13701000" />
     </task>
     <task id="LOCAL-00119" summary="add showing buying and selling prices">
       <option name="closed" value="true" />
@@ -698,7 +701,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736055888529</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="expense Header complete">
+      <option name="closed" value="true" />
+      <created>1736073279297</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1736073279301</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -719,7 +730,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="reduce duplicates" />
     <MESSAGE value="Move daily overview calculate to server" />
     <MESSAGE value="Fix the bug where wrong calculation in daily and monthly overview" />
     <MESSAGE value="Disabled item delete" />
@@ -744,6 +754,7 @@
     <MESSAGE value="Increase font size in cash report" />
     <MESSAGE value="Now can orders get by choosing date" />
     <MESSAGE value="add new expenses page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new expenses page" />
+    <MESSAGE value="expense Header complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="expense Header complete" />
   </component>
 </project>

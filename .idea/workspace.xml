@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Fix wrong date">
-      <change afterPath="$PROJECT_DIR$/app/api/v1/reports/expense/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dashboard/reports/components/ExpenseReport.tsx" afterDir="false" />
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Complete expense report">
       <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/expenseAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/expenseAction.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/reportsAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/reportsAction.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/CashReport.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/reports/components/CashReport.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,15 +303,8 @@
       <workItem from="1736052105525" duration="4346000" />
       <workItem from="1736062513902" duration="11087000" />
       <workItem from="1736092871876" duration="642000" />
-      <workItem from="1736135439417" duration="20578000" />
-    </task>
-    <task id="LOCAL-00126" summary="Can update customer if needed of an order">
-      <option name="closed" value="true" />
-      <created>1733502744215</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1733502744215</updated>
+      <workItem from="1736135439417" duration="20717000" />
+      <workItem from="1736173766230" duration="2551000" />
     </task>
     <task id="LOCAL-00127" summary="Fix when deleting order if file doesn't exist break the flow">
       <option name="closed" value="true" />
@@ -702,7 +690,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736166300426</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary="Complete expense report">
+      <option name="closed" value="true" />
+      <created>1736169104848</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1736169104849</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -723,7 +719,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add discount" />
     <MESSAGE value="Fix date" />
     <MESSAGE value="Add date year and month selection to reports for get quick overview" />
     <MESSAGE value="add new discount column" />
@@ -748,6 +743,7 @@
     <MESSAGE value="Fix order crashed bugs" />
     <MESSAGE value="Improve validation in expenses page" />
     <MESSAGE value="Fix wrong date" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix wrong date" />
+    <MESSAGE value="Complete expense report" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete expense report" />
   </component>
 </project>

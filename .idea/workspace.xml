@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="expenses page complete">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Fix order crashed bugs">
       <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/OrderTable.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -304,15 +301,7 @@
       <workItem from="1736052105525" duration="4346000" />
       <workItem from="1736062513902" duration="11087000" />
       <workItem from="1736092871876" duration="642000" />
-      <workItem from="1736135439417" duration="15398000" />
-    </task>
-    <task id="LOCAL-00120" summary="add new listing option">
-      <option name="closed" value="true" />
-      <created>1733254543105</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1733254543105</updated>
+      <workItem from="1736135439417" duration="15715000" />
     </task>
     <task id="LOCAL-00121" summary="add pagination and orders fetching size, loader and more">
       <option name="closed" value="true" />
@@ -698,7 +687,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736155106098</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="Fix order crashed bugs">
+      <option name="closed" value="true" />
+      <created>1736159208179</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1736159208179</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -719,8 +716,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix the bug where wrong calculation in daily and monthly overview" />
-    <MESSAGE value="Disabled item delete" />
     <MESSAGE value="Add StockReport.tsx" />
     <MESSAGE value="Fix button disabled" />
     <MESSAGE value="Add discount" />
@@ -744,6 +739,8 @@
     <MESSAGE value="add new expenses page" />
     <MESSAGE value="expense Header complete" />
     <MESSAGE value="expenses page complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="expenses page complete" />
+    <MESSAGE value="Fix bugs" />
+    <MESSAGE value="Fix order crashed bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix order crashed bugs" />
   </component>
 </project>

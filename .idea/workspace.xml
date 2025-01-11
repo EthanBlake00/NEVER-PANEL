@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Update the cloud functions">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Update some constant.ts on function and root">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constant/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constant/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/constant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/constant.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/templates.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/templates.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemFormDialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -324,15 +322,8 @@
       <workItem from="1736490249616" duration="1791000" />
       <workItem from="1736581981155" duration="8404000" />
       <workItem from="1736591128971" duration="1152000" />
-      <workItem from="1736609974421" duration="7380000" />
-    </task>
-    <task id="LOCAL-00138" summary="Add new loading state">
-      <option name="closed" value="true" />
-      <created>1735407686755</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1735407686755</updated>
+      <workItem from="1736609974421" duration="8286000" />
+      <workItem from="1736622346441" duration="1478000" />
     </task>
     <task id="LOCAL-00139" summary="Reduce latency some methods">
       <option name="closed" value="true" />
@@ -718,7 +709,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736590458862</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <task id="LOCAL-00187" summary="Update some constant.ts on function and root">
+      <option name="closed" value="true" />
+      <created>1736619496675</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1736619496675</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -739,7 +738,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove seconds from when selecting date in reports" />
     <MESSAGE value="Remove milliseconds from when selecting date in reports" />
     <MESSAGE value="add cost summery card to report" />
     <MESSAGE value="Fix long report date" />
@@ -764,6 +762,7 @@
     <MESSAGE value="Add Extra log" />
     <MESSAGE value="Fix report crash" />
     <MESSAGE value="Update the cloud functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update the cloud functions" />
+    <MESSAGE value="Update some constant.ts on function and root" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update some constant.ts on function and root" />
   </component>
 </project>

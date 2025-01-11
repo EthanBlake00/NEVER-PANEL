@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Fix report crash">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Update the cloud functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/expenses/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/expenses/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/GlobalProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/GlobalProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/constant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/constant.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/notifications.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/notifications.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/templates.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/templates.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/components/dashboard/SalesOverview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/components/dashboard/SalesOverview.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +76,7 @@
     &quot;npm.build.executor&quot;: &quot;Run&quot;,
     &quot;npm.deploy.executor&quot;: &quot;Run&quot;,
     &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.serve.executor&quot;: &quot;Run&quot;,
     &quot;npm.start.executor&quot;: &quot;Run&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/home/kawishika/Documents/Projects/Never-Panel/node_modules/typescript/lib&quot;,
@@ -103,7 +99,7 @@
       <recent name="$PROJECT_DIR$/app/api/v1/orders/date" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -134,6 +130,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/functions/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -146,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.serve" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
-        <item itemvalue="npm.deploy" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -312,15 +318,8 @@
       <workItem from="1736185184929" duration="2143000" />
       <workItem from="1736188515693" duration="8000" />
       <workItem from="1736490249616" duration="1791000" />
-      <workItem from="1736581981155" duration="7761000" />
-    </task>
-    <task id="LOCAL-00137" summary="Move all calculations to server in reports">
-      <option name="closed" value="true" />
-      <created>1735407101315</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1735407101315</updated>
+      <workItem from="1736581981155" duration="8404000" />
+      <workItem from="1736591128971" duration="1152000" />
     </task>
     <task id="LOCAL-00138" summary="Add new loading state">
       <option name="closed" value="true" />
@@ -706,7 +705,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736186724763</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="Update the cloud functions">
+      <option name="closed" value="true" />
+      <created>1736590458862</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1736590458862</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -727,7 +734,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix order count bug" />
     <MESSAGE value="Remove seconds from when selecting date in reports" />
     <MESSAGE value="Remove milliseconds from when selecting date in reports" />
     <MESSAGE value="add cost summery card to report" />
@@ -752,6 +758,7 @@
     <MESSAGE value="add missing async" />
     <MESSAGE value="Add Extra log" />
     <MESSAGE value="Fix report crash" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix report crash" />
+    <MESSAGE value="Update the cloud functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update the cloud functions" />
   </component>
 </project>

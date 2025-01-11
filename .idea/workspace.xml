@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Add Extra log">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Fix report crash">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/authAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/authAction.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/expenseAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/expenseAction.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/inventoryActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/inventoryActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/ordersActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/ordersActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/reportsAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/reportsAction.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebaseClient.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseClient.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/expenses/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/expenses/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/GlobalProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/GlobalProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/constant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/constant.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/notifications.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/notifications.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/templates.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/templates.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,15 +309,10 @@
       <workItem from="1736135439417" duration="20717000" />
       <workItem from="1736173766230" duration="9310000" />
       <workItem from="1736183947063" duration="727000" />
-      <workItem from="1736185184929" duration="1420000" />
-    </task>
-    <task id="LOCAL-00136" summary="Can view Sale report">
-      <option name="closed" value="true" />
-      <created>1735405562048</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1735405562048</updated>
+      <workItem from="1736185184929" duration="2143000" />
+      <workItem from="1736188515693" duration="8000" />
+      <workItem from="1736490249616" duration="1791000" />
+      <workItem from="1736581981155" duration="7761000" />
     </task>
     <task id="LOCAL-00137" summary="Move all calculations to server in reports">
       <option name="closed" value="true" />
@@ -704,7 +698,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736185886119</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="Fix report crash">
+      <option name="closed" value="true" />
+      <created>1736186724763</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1736186724763</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -725,7 +727,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Orders can now search" />
     <MESSAGE value="Fix order count bug" />
     <MESSAGE value="Remove seconds from when selecting date in reports" />
     <MESSAGE value="Remove milliseconds from when selecting date in reports" />
@@ -750,6 +751,7 @@
     <MESSAGE value="Further remove unnecessary console logs" />
     <MESSAGE value="add missing async" />
     <MESSAGE value="Add Extra log" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Extra log" />
+    <MESSAGE value="Fix report crash" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix report crash" />
   </component>
 </project>

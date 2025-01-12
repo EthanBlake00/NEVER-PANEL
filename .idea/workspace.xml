@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Update some constant.ts on function and root">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="add new market price and description to inventory">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemFormDialog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,15 +322,8 @@
       <workItem from="1736581981155" duration="8404000" />
       <workItem from="1736591128971" duration="1152000" />
       <workItem from="1736609974421" duration="8286000" />
-      <workItem from="1736622346441" duration="1478000" />
-    </task>
-    <task id="LOCAL-00139" summary="Reduce latency some methods">
-      <option name="closed" value="true" />
-      <created>1735408457050</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1735408457050</updated>
+      <workItem from="1736622346441" duration="1636000" />
+      <workItem from="1736654740336" duration="6334000" />
     </task>
     <task id="LOCAL-00140" summary="reduce duplicates">
       <option name="closed" value="true" />
@@ -717,7 +709,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736619496675</updated>
     </task>
-    <option name="localTasksCounter" value="188" />
+    <task id="LOCAL-00188" summary="add new market price and description to inventory">
+      <option name="closed" value="true" />
+      <created>1736623981052</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1736623981052</updated>
+    </task>
+    <option name="localTasksCounter" value="189" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -738,7 +738,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove milliseconds from when selecting date in reports" />
     <MESSAGE value="add cost summery card to report" />
     <MESSAGE value="Fix long report date" />
     <MESSAGE value="Add cash flow report" />
@@ -763,6 +762,7 @@
     <MESSAGE value="Fix report crash" />
     <MESSAGE value="Update the cloud functions" />
     <MESSAGE value="Update some constant.ts on function and root" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update some constant.ts on function and root" />
+    <MESSAGE value="add new market price and description to inventory" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new market price and description to inventory" />
   </component>
 </project>

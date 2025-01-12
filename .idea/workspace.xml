@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Update functions fees and chargers">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Optimized message template">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/templates.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/templates.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -324,15 +323,8 @@
       <workItem from="1736609974421" duration="8286000" />
       <workItem from="1736622346441" duration="1636000" />
       <workItem from="1736654740336" duration="8331000" />
-      <workItem from="1736669067939" duration="491000" />
-    </task>
-    <task id="LOCAL-00142" summary="Fix the bug where wrong calculation in daily and monthly overview">
-      <option name="closed" value="true" />
-      <created>1735446702154</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1735446702154</updated>
+      <workItem from="1736669067939" duration="1019000" />
+      <workItem from="1736675681359" duration="404000" />
     </task>
     <task id="LOCAL-00143" summary="Disabled item delete">
       <option name="closed" value="true" />
@@ -718,7 +710,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736669166385</updated>
     </task>
-    <option name="localTasksCounter" value="191" />
+    <task id="LOCAL-00191" summary="Optimized message template">
+      <option name="closed" value="true" />
+      <created>1736669579103</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1736669579103</updated>
+    </task>
+    <option name="localTasksCounter" value="192" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -739,7 +739,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add cash flow report" />
     <MESSAGE value="Increase font size in cash report" />
     <MESSAGE value="Now can orders get by choosing date" />
     <MESSAGE value="add new expenses page" />
@@ -764,6 +763,7 @@
     <MESSAGE value="add new market price and description to inventory" />
     <MESSAGE value="Change discount logic and improve some unnecessary loading time" />
     <MESSAGE value="Update functions fees and chargers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update functions fees and chargers" />
+    <MESSAGE value="Optimized message template" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimized message template" />
   </component>
 </project>

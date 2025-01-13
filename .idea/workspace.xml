@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Optimized validation in cloud function">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Order table optimized fix bugs, now works as fined">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemFormDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/inventory/components/ItemFormDialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constant/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,10 +96,10 @@
       <recent name="$PROJECT_DIR$/app/adminPanel/inventory/components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/utils" />
       <recent name="$PROJECT_DIR$/app/dashboard/components/shared" />
       <recent name="$PROJECT_DIR$/app/dashboard/components" />
-      <recent name="$PROJECT_DIR$/utils" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app/api/v1/orders/date" />
     </key>
   </component>
@@ -326,22 +331,8 @@
       <workItem from="1736675681359" duration="1264000" />
       <workItem from="1736684419751" duration="130000" />
       <workItem from="1736699097145" duration="38000" />
-    </task>
-    <task id="LOCAL-00144" summary="Add StockReport.tsx">
-      <option name="closed" value="true" />
-      <created>1735453077295</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1735453077295</updated>
-    </task>
-    <task id="LOCAL-00145" summary="Fix button disabled">
-      <option name="closed" value="true" />
-      <created>1735470455696</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1735470455697</updated>
+      <workItem from="1736745546587" duration="9255000" />
+      <workItem from="1736771405230" duration="10726000" />
     </task>
     <task id="LOCAL-00146" summary="Fix button disabled">
       <option name="closed" value="true" />
@@ -719,7 +710,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736676151386</updated>
     </task>
-    <option name="localTasksCounter" value="193" />
+    <task id="LOCAL-00193" summary="Order table will show all the order regarding payment status">
+      <option name="closed" value="true" />
+      <created>1736745680957</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1736745680958</updated>
+    </task>
+    <task id="LOCAL-00194" summary="Order table optimized fix bugs, now works as fined">
+      <option name="closed" value="true" />
+      <created>1736777208510</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1736777208511</updated>
+    </task>
+    <option name="localTasksCounter" value="195" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -740,8 +747,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Now can orders get by choosing date" />
-    <MESSAGE value="add new expenses page" />
     <MESSAGE value="expense Header complete" />
     <MESSAGE value="expenses page complete" />
     <MESSAGE value="Fix bugs" />
@@ -765,6 +770,8 @@
     <MESSAGE value="Update functions fees and chargers" />
     <MESSAGE value="Optimized message template" />
     <MESSAGE value="Optimized validation in cloud function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimized validation in cloud function" />
+    <MESSAGE value="Order table will show all the order regarding payment status" />
+    <MESSAGE value="Order table optimized fix bugs, now works as fined" />
+    <option name="LAST_COMMIT_MESSAGE" value="Order table optimized fix bugs, now works as fined" />
   </component>
 </project>

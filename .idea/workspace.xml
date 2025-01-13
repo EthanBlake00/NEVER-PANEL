@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Optimized message template">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Optimized validation in cloud function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -324,15 +323,9 @@
       <workItem from="1736622346441" duration="1636000" />
       <workItem from="1736654740336" duration="8331000" />
       <workItem from="1736669067939" duration="1019000" />
-      <workItem from="1736675681359" duration="404000" />
-    </task>
-    <task id="LOCAL-00143" summary="Disabled item delete">
-      <option name="closed" value="true" />
-      <created>1735447480222</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1735447480223</updated>
+      <workItem from="1736675681359" duration="1264000" />
+      <workItem from="1736684419751" duration="130000" />
+      <workItem from="1736699097145" duration="38000" />
     </task>
     <task id="LOCAL-00144" summary="Add StockReport.tsx">
       <option name="closed" value="true" />
@@ -718,7 +711,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736669579103</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="Optimized validation in cloud function">
+      <option name="closed" value="true" />
+      <created>1736676151386</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1736676151386</updated>
+    </task>
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -739,7 +740,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Increase font size in cash report" />
     <MESSAGE value="Now can orders get by choosing date" />
     <MESSAGE value="add new expenses page" />
     <MESSAGE value="expense Header complete" />
@@ -764,6 +764,7 @@
     <MESSAGE value="Change discount logic and improve some unnecessary loading time" />
     <MESSAGE value="Update functions fees and chargers" />
     <MESSAGE value="Optimized message template" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimized message template" />
+    <MESSAGE value="Optimized validation in cloud function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimized validation in cloud function" />
   </component>
 </project>

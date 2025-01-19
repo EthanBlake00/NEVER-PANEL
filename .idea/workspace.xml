@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Order table optimized fix bugs, now works as fined">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Fix order not updating">
+      <change afterPath="$PROJECT_DIR$/actions/paymentMethodAction.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/v1/payment-methods/[paymentId]/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/v1/payment-methods/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/orders/components/PaymentMethodForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/orders/components/PaymentTable.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/expenseAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/actions/expenseAction.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/OrdersHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/OrdersHeader.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ordersSlice/ordersSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ordersSlice/ordersSlice.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,14 +338,7 @@
       <workItem from="1736699097145" duration="38000" />
       <workItem from="1736745546587" duration="9255000" />
       <workItem from="1736771405230" duration="10726000" />
-    </task>
-    <task id="LOCAL-00146" summary="Fix button disabled">
-      <option name="closed" value="true" />
-      <created>1735470472664</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1735470472664</updated>
+      <workItem from="1737291079254" duration="3191000" />
     </task>
     <task id="LOCAL-00147" summary="Add discount">
       <option name="closed" value="true" />
@@ -722,7 +724,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736777208511</updated>
     </task>
-    <option name="localTasksCounter" value="195" />
+    <task id="LOCAL-00195" summary="Fix order not updating">
+      <option name="closed" value="true" />
+      <created>1737263304231</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1737263304231</updated>
+    </task>
+    <option name="localTasksCounter" value="196" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -743,7 +753,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="expense Header complete" />
     <MESSAGE value="expenses page complete" />
     <MESSAGE value="Fix bugs" />
     <MESSAGE value="Fix order crashed bugs" />
@@ -768,6 +777,7 @@
     <MESSAGE value="Optimized validation in cloud function" />
     <MESSAGE value="Order table will show all the order regarding payment status" />
     <MESSAGE value="Order table optimized fix bugs, now works as fined" />
-    <option name="LAST_COMMIT_MESSAGE" value="Order table optimized fix bugs, now works as fined" />
+    <MESSAGE value="Fix order not updating" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix order not updating" />
   </component>
 </project>

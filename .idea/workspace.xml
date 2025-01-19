@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Order table optimized fix bugs, now works as fined">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Update to work with cash report new dynamic PaymentMethods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebaseClient.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseClient.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/templates.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/templates.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +102,7 @@
       <recent name="$PROJECT_DIR$/app/api/v1/orders/date" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -152,8 +155,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.serve" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
@@ -329,30 +332,8 @@
       <workItem from="1736699097145" duration="38000" />
       <workItem from="1736745546587" duration="9255000" />
       <workItem from="1736771405230" duration="10726000" />
-    </task>
-    <task id="LOCAL-00146" summary="Fix button disabled">
-      <option name="closed" value="true" />
-      <created>1735470472664</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1735470472664</updated>
-    </task>
-    <task id="LOCAL-00147" summary="Add discount">
-      <option name="closed" value="true" />
-      <created>1735627436976</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1735627436976</updated>
-    </task>
-    <task id="LOCAL-00148" summary="Fix date">
-      <option name="closed" value="true" />
-      <created>1735837145539</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1735837145540</updated>
+      <workItem from="1737291079254" duration="3191000" />
+      <workItem from="1737301015868" duration="4295000" />
     </task>
     <task id="LOCAL-00149" summary="Add date year and month selection to reports for get quick overview">
       <option name="closed" value="true" />
@@ -722,7 +703,31 @@
       <option name="project" value="LOCAL" />
       <updated>1736777208511</updated>
     </task>
-    <option name="localTasksCounter" value="195" />
+    <task id="LOCAL-00195" summary="Fix order not updating">
+      <option name="closed" value="true" />
+      <created>1737263304231</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1737263304231</updated>
+    </task>
+    <task id="LOCAL-00196" summary="Add PaymentMethods and Change dates to ISO format">
+      <option name="closed" value="true" />
+      <created>1737301363426</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1737301363426</updated>
+    </task>
+    <task id="LOCAL-00197" summary="Update to work with cash report new dynamic PaymentMethods">
+      <option name="closed" value="true" />
+      <created>1737304935004</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1737304935004</updated>
+    </task>
+    <option name="localTasksCounter" value="198" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -743,9 +748,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="expense Header complete" />
-    <MESSAGE value="expenses page complete" />
-    <MESSAGE value="Fix bugs" />
     <MESSAGE value="Fix order crashed bugs" />
     <MESSAGE value="Improve validation in expenses page" />
     <MESSAGE value="Fix wrong date" />
@@ -768,6 +770,9 @@
     <MESSAGE value="Optimized validation in cloud function" />
     <MESSAGE value="Order table will show all the order regarding payment status" />
     <MESSAGE value="Order table optimized fix bugs, now works as fined" />
-    <option name="LAST_COMMIT_MESSAGE" value="Order table optimized fix bugs, now works as fined" />
+    <MESSAGE value="Fix order not updating" />
+    <MESSAGE value="Add PaymentMethods and Change dates to ISO format" />
+    <MESSAGE value="Update to work with cash report new dynamic PaymentMethods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update to work with cash report new dynamic PaymentMethods" />
   </component>
 </project>

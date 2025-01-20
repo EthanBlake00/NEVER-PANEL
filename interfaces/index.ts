@@ -12,9 +12,10 @@ export interface User {
     createdAt: Timestamp | string;
     updatedAt: Timestamp | string;
 }
-export interface PaymentMethod{
+export interface PaymentMethod {
     paymentId: string;
     name: string;
+    description: string | null;
     fee:number,
     status: "Active" | "Inactive";
     available: string[];

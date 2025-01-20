@@ -3,12 +3,12 @@ import Dialog from "@mui/material/Dialog";
 import DialogTitle from "@mui/material/DialogTitle";
 import DialogContent from "@mui/material/DialogContent";
 import Button from "@mui/material/Button";
-import {Box, Checkbox, DialogActions, FormControlLabel, Switch, TextField, Typography} from "@mui/material";
+import {Box, Checkbox, DialogActions, FormControlLabel, Switch, TextField, Typography,TextareaAutosize} from "@mui/material";
 import {PaymentMethod} from "@/interfaces";
 import {createPaymentMethod, updatePaymentMethod} from "@/actions/paymentMethodAction";
 import {useDispatch, useSelector} from "react-redux";
 import {AppDispatch, RootState} from "@/lib/store";
-import { getPayments } from "@/lib/ordersSlice/ordersSlice";
+import {getPayments} from "@/lib/ordersSlice/ordersSlice";
 
 const PaymentMethodForm = ({
 
@@ -18,9 +18,9 @@ const PaymentMethodForm = ({
     showPaymentMethodForm: boolean;
     onClose: () => void;
 }) => {
-    const dispatch:AppDispatch = useDispatch();
+    const dispatch: AppDispatch = useDispatch();
     const [available, setAvailable] = useState<string[]>([]);
-    const {selectedPayment} = useSelector((state:RootState) => state.ordersSlice);
+    const {selectedPayment} = useSelector((state: RootState) => state.ordersSlice);
     const [isLoading, setIsLoading] = useState(false)
 
     useEffect(() => {
@@ -40,14 +40,17 @@ const PaymentMethodForm = ({
         try {
             setIsLoading(true);
             e.preventDefault();
+
+            const id = e.target.id.value.toString().toLowerCase();
+            const name = e.target.name.value.toString().toUpperCase();
+            const fee = Number.parseFloat(e.target.fee.value);
+            const status = e.target.status.checked ? "Active" : "Inactive";
+            const description: string | null = e.target.description.value.toString() ? e.target.description.value.toString() : null;
+
             if (selectedPayment) {
                 console.log("Updating payment method");
-                const id = e.target.id.value.toString().toLowerCase();
-                const name = e.target.name.value.toString().toUpperCase();
-                const fee = Number.parseFloat(e.target.fee.value);
-                const status = e.target.status.checked ? "Active" : "Inactive";
-
                 const updatedPaymentMethod: PaymentMethod = {
+                    description,
                     paymentId: id,
                     name,
                     fee,
@@ -58,14 +61,9 @@ const PaymentMethodForm = ({
                 };
                 await updatePaymentMethod(updatedPaymentMethod);
                 onClose();
-            }else {
-                console.log("Creating new payment method");
-                const id = e.target.id.value.toString().toLowerCase();
-                const name = e.target.name.value.toString().toUpperCase();
-                const fee = Number.parseFloat(e.target.fee.value);
-                const status = e.target.status.checked ? "Active" : "Inactive";
-
+            } else {
                 const newPaymentMethod: PaymentMethod = {
+                    description,
                     paymentId: id,
                     name,
                     fee,
@@ -78,9 +76,9 @@ const PaymentMethodForm = ({
                 onClose();
             }
             dispatch(getPayments());
-        }catch (e) {
+        } catch (e) {
             console.error(e)
-        }finally {
+        } finally {
             setIsLoading(false)
         }
     };
@@ -89,7 +87,7 @@ const PaymentMethodForm = ({
         return "pm-" + Math.floor(100 + Math.random() * 900);
     }
     return (
-        <Dialog open={showPaymentMethodForm} onClose={onClose} maxWidth="md">
+        <Dialog open={showPaymentMethodForm} onClose={onClose} fullWidth>
             <DialogTitle>Payment Method Details</DialogTitle>
             <form onSubmit={handleSubmit}>
                 <DialogContent>
@@ -114,6 +112,19 @@ const PaymentMethodForm = ({
                             fullWidth
                             disabled={isLoading}
                             required
+                        />
+                    </Box>
+                    <Box mb={2}>
+                        <TextareaAutosize
+                            aria-label={"Payment method description"}
+                            minRows={8}
+                            name="description"
+                            placeholder="Payment method description"
+                            variant="outlined"
+                            size="small"
+                            defaultValue={selectedPayment?.description}
+                            fullWidth
+                            disabled={isLoading}
                         />
                     </Box>
                     <Box mb={2}>

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Update cloud functions and remove feesAndCharges from order table and order interface">
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Add new description property to PaymentMethodForm.tsx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/orders/components/PaymentMethodForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/orders/components/PaymentMethodForm.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,7 @@
       <recent name="$PROJECT_DIR$/app/api/v1/orders/date" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -152,8 +152,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.serve" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
@@ -332,23 +332,9 @@
       <workItem from="1737291079254" duration="3191000" />
       <workItem from="1737301015868" duration="5194000" />
       <workItem from="1737310572513" duration="1434000" />
-      <workItem from="1737312261652" duration="1592000" />
-    </task>
-    <task id="LOCAL-00151" summary="Add range of date to SaleReport.tsx">
-      <option name="closed" value="true" />
-      <created>1735886470038</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1735886470038</updated>
-    </task>
-    <task id="LOCAL-00152" summary="Now sale reports show totals orders and total discount">
-      <option name="closed" value="true" />
-      <created>1735899468711</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1735899468711</updated>
+      <workItem from="1737312261652" duration="1646000" />
+      <workItem from="1737350481213" duration="1953000" />
+      <workItem from="1737387569807" duration="2460000" />
     </task>
     <task id="LOCAL-00153" summary="RecentTransactions.tsx show more details">
       <option name="closed" value="true" />
@@ -726,7 +712,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737312740122</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary="Update cloud functions and remove feesAndCharges from order table and order interface">
+      <option name="closed" value="true" />
+      <created>1737313870219</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1737313870219</updated>
+    </task>
+    <task id="LOCAL-00201" summary="Add new description property to PaymentMethodForm.tsx">
+      <option name="closed" value="true" />
+      <created>1737389094301</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1737389094302</updated>
+    </task>
+    <option name="localTasksCounter" value="202" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -747,7 +749,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Improve validation in expenses page" />
     <MESSAGE value="Fix wrong date" />
     <MESSAGE value="Complete expense report" />
     <MESSAGE value="Fixed cash report wrong value bug" />
@@ -772,6 +773,7 @@
     <MESSAGE value="Add PaymentMethods and Change dates to ISO format" />
     <MESSAGE value="Update to work with cash report new dynamic PaymentMethods" />
     <MESSAGE value="Update cloud functions and remove feesAndCharges from order table and order interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update cloud functions and remove feesAndCharges from order table and order interface" />
+    <MESSAGE value="Add new description property to PaymentMethodForm.tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new description property to PaymentMethodForm.tsx" />
   </component>
 </project>

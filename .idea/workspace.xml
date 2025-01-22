@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Update cloud functions and remove feesAndCharges from order table and order interface">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="b18989d7-7aaf-4863-a6f0-404e4a9de89e" name="Changes" comment="Profit summery now show debuting total expenses">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/reports/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebaseAdmin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/expenses/components/ExpensesTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/expenses/components/ExpensesTable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/expenses/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/expenses/components/Header.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,15 +334,7 @@
       <workItem from="1737301015868" duration="5194000" />
       <workItem from="1737310572513" duration="1434000" />
       <workItem from="1737312261652" duration="1592000" />
-      <workItem from="1737537945930" duration="3232000" />
-    </task>
-    <task id="LOCAL-00151" summary="Add range of date to SaleReport.tsx">
-      <option name="closed" value="true" />
-      <created>1735886470038</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1735886470038</updated>
+      <workItem from="1737537945930" duration="4659000" />
     </task>
     <task id="LOCAL-00152" summary="Now sale reports show totals orders and total discount">
       <option name="closed" value="true" />
@@ -729,7 +720,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737312740122</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary="Profit summery now show debuting total expenses">
+      <option name="closed" value="true" />
+      <created>1737544848925</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1737544848925</updated>
+    </task>
+    <option name="localTasksCounter" value="201" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -750,7 +749,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Improve validation in expenses page" />
     <MESSAGE value="Fix wrong date" />
     <MESSAGE value="Complete expense report" />
     <MESSAGE value="Fixed cash report wrong value bug" />
@@ -775,6 +773,7 @@
     <MESSAGE value="Add PaymentMethods and Change dates to ISO format" />
     <MESSAGE value="Update to work with cash report new dynamic PaymentMethods" />
     <MESSAGE value="Update cloud functions and remove feesAndCharges from order table and order interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update cloud functions and remove feesAndCharges from order table and order interface" />
+    <MESSAGE value="Profit summery now show debuting total expenses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Profit summery now show debuting total expenses" />
   </component>
 </project>
